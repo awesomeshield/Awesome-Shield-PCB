@@ -1692,38 +1692,38 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="F1" library="SparkFun-PowerIC" package="PTC-1206" value="PTCTHERMISTOR1206" x="76.2" y="26.67">
-<attribute name="PROD_ID" value="RES-08585" x="76.2" y="26.67" size="1.778" layer="27" display="off"/>
+<element name="F1" library="SparkFun-PowerIC" package="PTC-1206" value="PTCTHERMISTOR1206" x="80.01" y="27.94" rot="R270">
+<attribute name="PROD_ID" value="RES-08585" x="80.01" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Boards" package="UNO_R3_SHIELD_LOCK" value="ARDUINO_R3_SHIELDUNO_R3_SHIELD_LOCK" x="24.13" y="69.85" rot="R270"/>
 <element name="J2" library="CONNECTER" package="2.0_1X4" value="TWIG_2.0" x="30.48" y="26.67" rot="R90"/>
 <element name="J3" library="CONNECTER" package="2.0_1X4" value="TWIG_2.0" x="30.48" y="40.64" rot="R90"/>
 <element name="LED1" library="adafruit" package="RGBLED5050" value="RGBLED5050" x="55.88" y="53.34" rot="R270"/>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="PT17-21C-L41-TR8" value="" x="72.39" y="46.99" rot="R90">
-<attribute name="PROD_ID" value="TRANS-12141" x="72.39" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="Q1" library="SparkFun-DiscreteSemi" package="PT17-21C-L41-TR8" value="" x="80.01" y="36.83" rot="R180">
+<attribute name="PROD_ID" value="TRANS-12141" x="80.01" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R1" library="rcl" package="R1206" value="" x="52.07" y="60.96" rot="R270"/>
-<element name="R2" library="rcl" package="R1206" value="" x="-15.24" y="88.9"/>
-<element name="R3" library="rcl" package="R1206" value="" x="-20.32" y="88.9"/>
-<element name="R6" library="rcl" package="R1206" value="" x="60.96" y="30.48" rot="R270"/>
-<element name="R7" library="rcl" package="R1206" value="" x="68.58" y="30.48" rot="R90"/>
-<element name="R8" library="SparkFun-Electromechanical" package="TRIMPOT-5MM-V2" value="" x="77.47" y="34.29" rot="R270"/>
-<element name="SW1" library="adafruit" package="EVQ-Q2" value="SPST_TACT-EVQQ2" x="74.93" y="55.88" rot="R90"/>
+<element name="R1" library="rcl" package="R1206" value="" x="49.53" y="60.96" rot="R270"/>
+<element name="R2" library="rcl" package="R1206" value="" x="60.96" y="60.96" rot="R270"/>
+<element name="R3" library="rcl" package="R1206" value="" x="55.88" y="60.96" rot="R270"/>
+<element name="R6" library="rcl" package="R1206" value="" x="76.2" y="35.56" rot="R90"/>
+<element name="R7" library="rcl" package="R1206" value="" x="76.2" y="27.94" rot="R90"/>
+<element name="R8" library="SparkFun-Electromechanical" package="TRIMPOT-5MM-V2" value="" x="67.31" y="29.21" rot="R90"/>
+<element name="SW1" library="adafruit" package="EVQ-Q2" value="SPST_TACT-EVQQ2" x="73.66" y="59.69"/>
 </elements>
 <signals>
 <signal name="+3V3">
 <contactref element="R6" pad="1"/>
 <contactref element="R7" pad="2"/>
 <contactref element="R8" pad="C"/>
-<wire x1="68.58" y1="31.902" x2="60.96" y2="31.902" width="0" layer="19" extent="1-1"/>
-<wire x1="74.93" y1="35.44" x2="68.58" y2="31.902" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="29.362" x2="76.2" y2="34.138" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="28.06" x2="76.2" y2="29.362" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R6" pad="2"/>
 <contactref element="Q1" pad="C"/>
 <contactref element="J1" pad="A1"/>
-<wire x1="71.34" y1="46.99" x2="60.96" y2="29.058" width="0" layer="19" extent="1-1"/>
-<wire x1="68.58" y1="19.05" x2="60.96" y2="29.058" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="35.78" x2="76.2" y2="36.982" width="0" layer="19" extent="1-1"/>
+<wire x1="68.58" y1="19.05" x2="76.2" y2="36.982" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="Q1" pad="E"/>
@@ -1737,60 +1737,60 @@ design rules under a new name.</description>
 <contactref element="SW1" pad="A'"/>
 <contactref element="J2" pad="4"/>
 <contactref element="J3" pad="4"/>
-<wire x1="76.93" y1="52.48" x2="76.93" y2="59.28" width="0" layer="19" extent="1-1"/>
-<wire x1="55.88" y1="51.34" x2="76.93" y2="52.48" width="0" layer="19" extent="1-1"/>
+<wire x1="70.26" y1="57.69" x2="77.06" y2="57.69" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="51.34" x2="70.26" y2="57.69" width="0" layer="19" extent="1-1"/>
 <wire x1="57.58" y1="51.34" x2="55.88" y2="51.34" width="0" layer="19" extent="1-1"/>
 <wire x1="54.18" y1="51.34" x2="55.88" y2="51.34" width="0" layer="19" extent="1-1"/>
-<wire x1="73.44" y1="46.99" x2="57.58" y2="51.34" width="0" layer="19" extent="1-1"/>
-<wire x1="74.8" y1="26.67" x2="73.44" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="37.88" x2="57.58" y2="51.34" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="29.34" x2="80.01" y2="37.88" width="0" layer="19" extent="1-1"/>
 <wire x1="30.48" y1="29.67" x2="55.88" y2="51.34" width="0" layer="19" extent="1-1"/>
 <wire x1="30.48" y1="43.64" x2="30.48" y2="29.67" width="0" layer="19" extent="1-1"/>
-<wire x1="74.93" y1="33.14" x2="30.48" y2="43.64" width="0" layer="19" extent="1-1"/>
-<wire x1="73.66" y1="19.05" x2="76.93" y2="59.28" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="30.36" x2="30.48" y2="43.64" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="19.05" x2="77.06" y2="57.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R7" pad="1"/>
 <contactref element="F1" pad="2"/>
 <contactref element="J1" pad="A2"/>
-<wire x1="77.6" y1="26.67" x2="68.58" y2="29.058" width="0" layer="19" extent="1-1"/>
-<wire x1="71.12" y1="18.796" x2="68.58" y2="29.058" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="26.54" x2="76.2" y2="26.518" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="18.796" x2="76.2" y2="26.518" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="2"/>
 <contactref element="LED1" pad="3"/>
-<wire x1="52.07" y1="59.538" x2="54.18" y2="55.34" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="59.538" x2="54.18" y2="55.34" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R2" pad="2"/>
 <contactref element="LED1" pad="1"/>
-<wire x1="57.58" y1="55.34" x2="-13.818" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="57.58" y1="55.34" x2="60.96" y2="59.538" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R3" pad="2"/>
 <contactref element="LED1" pad="2"/>
-<wire x1="55.88" y1="55.34" x2="-18.898" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="55.34" x2="55.88" y2="59.538" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3">
 <contactref element="R3" pad="1"/>
 <contactref element="J1" pad="D3"/>
-<wire x1="71.12" y1="67.564" x2="-21.742" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="71.12" y1="67.564" x2="55.88" y2="62.382" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R2" pad="1"/>
 <contactref element="J1" pad="D5"/>
-<wire x1="66.04" y1="67.564" x2="-16.662" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="67.564" x2="60.96" y2="62.382" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R1" pad="1"/>
 <contactref element="J1" pad="D6"/>
-<wire x1="52.07" y1="62.382" x2="63.5" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="62.382" x2="63.5" y2="67.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="SW1" pad="B"/>
 <contactref element="SW1" pad="B'"/>
 <contactref element="J1" pad="D2"/>
-<wire x1="72.93" y1="52.48" x2="72.93" y2="59.28" width="0" layer="19" extent="1-1"/>
-<wire x1="73.66" y1="67.31" x2="72.93" y2="52.48" width="0" layer="19" extent="1-1"/>
+<wire x1="70.26" y1="61.69" x2="77.06" y2="61.69" width="0" layer="19" extent="1-1"/>
+<wire x1="73.66" y1="67.31" x2="70.26" y2="61.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="J2" pad="3"/>
