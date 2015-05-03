@@ -5167,6 +5167,71 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="smd-special">
+<description>&lt;b&gt;Special SMD Packages&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SMS-001">
+<description>&lt;b&gt;DIP SWITCH&lt;/b&gt;</description>
+<wire x1="-1.905" y1="-3.2004" x2="1.905" y2="-3.2004" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="3.2004" x2="1.905" y2="-3.2004" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="3.2004" x2="-1.905" y2="3.2004" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-3.2004" x2="-1.905" y2="3.2004" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="2.032" x2="0.762" y2="2.032" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-2.032" x2="-0.762" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="2.032" x2="0.762" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-2.032" x2="-0.762" y2="2.032" width="0.1524" layer="21"/>
+<smd name="1" x="0" y="-4.4958" dx="1.0922" dy="2.0066" layer="1"/>
+<smd name="2" x="0" y="4.4958" dx="1.0922" dy="2.0066" layer="1"/>
+<text x="-0.127" y="-1.27" size="1.016" layer="21">1</text>
+<text x="-2.286" y="-3.175" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.556" y="-3.175" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.762" y1="0.508" x2="0.762" y2="2.032" layer="21"/>
+<rectangle x1="-0.7366" y1="-4.1148" x2="0.762" y2="-3.2004" layer="51"/>
+<rectangle x1="-0.3048" y1="-5.1816" x2="0.3048" y2="-4.1148" layer="51"/>
+<rectangle x1="-0.762" y1="3.2004" x2="0.7366" y2="4.1148" layer="51"/>
+<rectangle x1="-0.3048" y1="4.1148" x2="0.3048" y2="5.1816" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DIP01">
+<wire x1="0.508" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="2.54" x2="0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="5.08" x2="-1.905" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="5.08" x2="-1.905" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="-2.54" x2="1.905" y2="5.08" width="0.4064" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="-0.635" y="3.175" size="0.9906" layer="94" ratio="14">ON</text>
+<text x="-0.254" y="-1.651" size="0.9906" layer="94" ratio="14">1</text>
+<rectangle x1="-0.254" y1="0.254" x2="0.254" y2="1.27" layer="94"/>
+<pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWS001" prefix="S">
+<description>&lt;b&gt;SMD Dip Switch 1 pol.&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIP01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMS-001">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5212,6 +5277,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P1" library="Discrete" deviceset="PAD-JUMPER-2P" device="" value="DNP"/>
 <part name="P2" library="Discrete" deviceset="PAD-JUMPER-2P" device="" value="DNP"/>
+<part name="S1" library="smd-special" deviceset="SWS001" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5256,6 +5322,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND11" gate="1" x="327.66" y="71.12"/>
 <instance part="P1" gate="G$1" x="160.02" y="92.71"/>
 <instance part="P2" gate="G$1" x="177.8" y="92.71" rot="R180"/>
+<instance part="S1" gate="G$1" x="335.28" y="190.5"/>
 </instances>
 <busses>
 </busses>
