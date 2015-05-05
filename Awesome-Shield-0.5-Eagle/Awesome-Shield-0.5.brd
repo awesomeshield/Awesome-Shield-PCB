@@ -309,22 +309,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <package name="RGBLED5050">
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="0" y2="-2.5" width="0.127" layer="21"/>
 <circle x="2.934" y="-2.688" radius="0.1414" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="2.1" width="0.127" layer="21"/>
-<smd name="1" x="-2" y="1.7" dx="2" dy="1.1" layer="1"/>
-<smd name="2" x="-2" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="3" x="-2" y="-1.7" dx="2" dy="1.1" layer="1"/>
-<smd name="4" x="2" y="-1.7" dx="2" dy="1.1" layer="1"/>
-<smd name="5" x="2" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="6" x="2" y="1.7" dx="2" dy="1.1" layer="1"/>
+<smd name="1" x="-2.2" y="1.75" dx="2.8" dy="1" layer="1"/>
+<smd name="2" x="-2.2" y="0" dx="2.8" dy="1" layer="1"/>
+<smd name="3" x="-2.2" y="-1.75" dx="2.8" dy="1" layer="1"/>
+<smd name="4" x="2.2" y="-1.75" dx="2.8" dy="1" layer="1"/>
+<smd name="5" x="2.2" y="0" dx="2.8" dy="1" layer="1"/>
+<smd name="6" x="2.2" y="1.75" dx="2.8" dy="1" layer="1"/>
 <text x="-1.7" y="2.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2" y="-4.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="0" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1" x2="1.7" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.5" x2="0.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1" x2="2.5" y2="-0.8" width="0.127" layer="21"/>
 </package>
 <package name="EVQ-Q2">
 <description>modified to be TME part
@@ -1831,10 +1831,10 @@ design rules under a new name.</description>
 <wire x1="80.01" y1="27.605" x2="79.99" y2="35.42" width="0" layer="19" extent="1-1"/>
 <wire x1="72.39" y1="35.44" x2="79.99" y2="35.42" width="0" layer="19" extent="1-1"/>
 <wire x1="74.93" y1="20.32" x2="80.01" y2="27.605" width="0" layer="19" extent="1-1"/>
-<wire x1="42.8" y1="57.72" x2="62.525" y2="55.1" width="0" layer="19" extent="1-1"/>
-<wire x1="42.8" y1="59.42" x2="42.8" y2="57.72" width="0" layer="19" extent="1-1"/>
-<wire x1="42.8" y1="61.12" x2="42.8" y2="59.42" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="48.72" x2="42.8" y2="57.72" width="0" layer="19" extent="1-1"/>
+<wire x1="42.6" y1="57.67" x2="62.525" y2="55.1" width="0" layer="19" extent="1-1"/>
+<wire x1="42.6" y1="59.42" x2="42.6" y2="57.67" width="0" layer="19" extent="1-1"/>
+<wire x1="42.6" y1="61.17" x2="42.6" y2="59.42" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="48.72" x2="42.6" y2="57.67" width="0" layer="19" extent="1-1"/>
 <wire x1="32.16" y1="51.666" x2="35.56" y2="48.72" width="0" layer="19" extent="1-1"/>
 <wire x1="32.16" y1="39.774" x2="35.56" y2="48.72" width="0" layer="19" extent="1-1"/>
 <wire x1="32.16" y1="33.886" x2="32.16" y2="39.774" width="0" layer="19" extent="1-1"/>
@@ -1851,17 +1851,17 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="R1" pad="2"/>
 <contactref element="LED1" pad="3"/>
-<wire x1="46.8" y1="61.12" x2="52.538" y2="63.23" width="0" layer="19" extent="1-1"/>
+<wire x1="47" y1="61.17" x2="52.538" y2="63.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R2" pad="2"/>
 <contactref element="LED1" pad="1"/>
-<wire x1="46.8" y1="57.72" x2="52.538" y2="55.61" width="0" layer="19" extent="1-1"/>
+<wire x1="47" y1="57.67" x2="52.538" y2="55.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R3" pad="2"/>
 <contactref element="LED1" pad="2"/>
-<wire x1="46.8" y1="59.42" x2="52.538" y2="59.42" width="0" layer="19" extent="1-1"/>
+<wire x1="47" y1="59.42" x2="52.538" y2="59.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3">
 <contactref element="J1" pad="D3"/>
