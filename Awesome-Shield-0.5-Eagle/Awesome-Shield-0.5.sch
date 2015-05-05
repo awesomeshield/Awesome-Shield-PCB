@@ -5447,25 +5447,24 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="PT17-21C-L41-TR8">
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="E" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+<description>modified to be photodiode avail from digikey
+used max pad dimensions
+added 1mm to outer side of each pad to facilitate hand soldering
+
+
+store
+http://www.digikey.de/product-detail/en/OP980/365-1908-1-ND/4741312
+
+datasheet
+http://optekinc.com/datasheets/OP980.pdf</description>
+<smd name="C" x="0" y="1.75" dx="2.7" dy="2.1" layer="1"/>
+<smd name="E" x="0" y="-1.75" dx="2.7" dy="2.1" layer="1"/>
 <text x="-0.8" y="-1" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 <text x="1.2" y="-1" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.6" y1="0.1" x2="-0.3" y2="0.3" layer="51"/>
-<rectangle x1="0.3" y1="0.1" x2="0.6" y2="0.3" layer="21"/>
-<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.127" layer="51"/>
-<wire x1="0.625" y1="-1" x2="0.4" y2="-1" width="0.127" layer="51"/>
-<wire x1="0.4" y1="-1" x2="-0.4" y2="-1" width="0.127" layer="51"/>
-<wire x1="-0.4" y1="-1" x2="-0.625" y2="-1" width="0.127" layer="51"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-0.625" y1="-0.8" x2="-0.625" y2="1" width="0.127" layer="51"/>
-<wire x1="0.4" y1="1" x2="-0.4" y2="1" width="0.127" layer="51" curve="-180"/>
-<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.127" layer="51"/>
-<wire x1="-0.4" y1="-1" x2="0.4" y2="-1" width="0.127" layer="51" curve="-180"/>
-<wire x1="-0.35" y1="-0.8" x2="-0.625" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="0.6" y1="-0.8" x2="0.35" y2="-0.8" width="0.127" layer="51"/>
-<rectangle x1="-0.6" y1="0.1" x2="-0.3" y2="0.3" layer="21"/>
-<rectangle x1="0.3" y1="0.1" x2="0.6" y2="0.3" layer="51"/>
+<wire x1="1.7" y1="1.6" x2="1.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="1.6" x2="-1.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-1" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5495,8 +5494,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2CATHODE" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1ANODE" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5507,8 +5506,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="PT17-21C-L41-TR8" package="PT17-21C-L41-TR8">
 <connects>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="1ANODE" pad="C"/>
+<connect gate="G$1" pin="2CATHODE" pad="E"/>
 </connects>
 <technologies>
 <technology name="">
@@ -5894,7 +5893,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="A1" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="1ANODE"/>
 <wire x1="187.96" y1="205.74" x2="187.96" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="203.2" x2="187.96" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="203.2" x2="175.26" y2="203.2" width="0.1524" layer="91"/>
@@ -5908,7 +5907,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="Q1" gate="G$1" pin="2CATHODE"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="187.96" y1="187.96" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
 </segment>
