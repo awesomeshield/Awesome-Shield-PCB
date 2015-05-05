@@ -5822,7 +5822,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="SG1" library="SparkFun-Electromechanical" deviceset="BUZZER" device="SMD2"/>
-<part name="SG3" library="SparkFun-Electromechanical" deviceset="BUZZER" device="SMD"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-DPDT" device="AYZ0202" value="DPDT"/>
@@ -5868,7 +5867,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND10" gate="1" x="287.02" y="71.12"/>
 <instance part="GND12" gate="1" x="337.82" y="139.7"/>
 <instance part="SG1" gate="G$1" x="124.46" y="160.02"/>
-<instance part="SG3" gate="G$1" x="139.7" y="144.78"/>
 <instance part="SJ1" gate="G$1" x="162.56" y="116.84" rot="R90"/>
 <instance part="SJ2" gate="G$1" x="175.26" y="116.84" rot="R90"/>
 <instance part="S2" gate="G$1" x="337.82" y="154.94" rot="R270"/>
