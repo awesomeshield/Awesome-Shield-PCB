@@ -801,8 +801,8 @@ http://www.tme.eu/en/details/of-smd5060rgb-w/smd-colour-leds/optoflash/#
 
 – datasheet
 http://www.tme.eu/en/Document/43ae14a9f237444e7c090cb5dbdd0537/OF-SMD5060RGB-W.pdf</description>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="0" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.7" x2="2.5" y2="2.7" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.6" x2="-0.1" y2="-2.6" width="0.127" layer="21"/>
 <circle x="2.934" y="-2.688" radius="0.1414" width="0.127" layer="21"/>
 <smd name="1" x="-2.2" y="1.75" dx="2.8" dy="1" layer="1"/>
 <smd name="2" x="-2.2" y="0" dx="2.8" dy="1" layer="1"/>
@@ -810,14 +810,13 @@ http://www.tme.eu/en/Document/43ae14a9f237444e7c090cb5dbdd0537/OF-SMD5060RGB-W.p
 <smd name="4" x="2.2" y="-1.75" dx="2.8" dy="1" layer="1"/>
 <smd name="5" x="2.2" y="0" dx="2.8" dy="1" layer="1"/>
 <smd name="6" x="2.2" y="1.75" dx="2.8" dy="1" layer="1"/>
-<text x="-1.7" y="2.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2" y="-4.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="0" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-2.6" x2="-2.5" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1" x2="1.7" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.5" x2="0.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.9" x2="1.7" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-2.6" x2="0.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="-0.8" width="0.127" layer="21"/>
+<text x="-2.54" y="2.84" size="1.27" layer="21">&gt;name</text>
 </package>
 <package name="EVQ-Q2">
 <description>modified to be TME part
