@@ -327,8 +327,8 @@ http://www.tme.eu/en/details/of-smd5060rgb-w/smd-colour-leds/optoflash/#
 
 – datasheet
 http://www.tme.eu/en/Document/43ae14a9f237444e7c090cb5dbdd0537/OF-SMD5060RGB-W.pdf</description>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="0" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.7" x2="2.5" y2="2.7" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.6" x2="-0.1" y2="-2.6" width="0.127" layer="21"/>
 <circle x="2.934" y="-2.688" radius="0.1414" width="0.127" layer="21"/>
 <smd name="1" x="-2.2" y="1.75" dx="2.8" dy="1" layer="1"/>
 <smd name="2" x="-2.2" y="0" dx="2.8" dy="1" layer="1"/>
@@ -336,14 +336,13 @@ http://www.tme.eu/en/Document/43ae14a9f237444e7c090cb5dbdd0537/OF-SMD5060RGB-W.p
 <smd name="4" x="2.2" y="-1.75" dx="2.8" dy="1" layer="1"/>
 <smd name="5" x="2.2" y="0" dx="2.8" dy="1" layer="1"/>
 <smd name="6" x="2.2" y="1.75" dx="2.8" dy="1" layer="1"/>
-<text x="-1.7" y="2.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2" y="-4.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="0" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-2.6" x2="-2.5" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0.5" x2="0" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1" x2="1.7" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.5" x2="0.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.9" x2="1.7" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-2.6" x2="0.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="-0.8" width="0.127" layer="21"/>
+<text x="-2.54" y="2.84" size="1.27" layer="21">&gt;name</text>
 </package>
 <package name="EVQ-Q2">
 <description>modified to be TME part
@@ -1794,38 +1793,83 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="F1" library="SparkFun-PowerIC" package="PTC-1206" value="PTCTHERMISTOR1206" x="70.62" y="33.91" rot="R180">
+<element name="F1" library="SparkFun-PowerIC" package="PTC-1206" value="PTCTHERMISTOR1206" x="70.62" y="33.91" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="RES-08585" x="70.62" y="33.91" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Boards" package="UNO_R3_SHIELD_LOCK" value="ARDUINO_R3_SHIELDUNO_R3_SHIELD_LOCK" x="25.4" y="71.12" rot="R270"/>
-<element name="LED1" library="adafruit" package="RGBLED5050" value="RGBLED5050" x="42.9" y="38.42" rot="R180"/>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="PT17-21C-L41-TR8" value="" x="70.63" y="29.49" rot="R90">
+<element name="LED1" library="adafruit" package="RGBLED5050" value="RGBLED5050" x="42.9" y="38.42" smashed="yes" rot="R180"/>
+<element name="Q1" library="SparkFun-DiscreteSemi" package="PT17-21C-L41-TR8" value="" x="70.63" y="29.49" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="TRANS-12141" x="70.63" y="29.49" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="71.63" y="30.69" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R1" library="rcl" package="R1206" value="" x="56.46" y="61.53" rot="R180"/>
-<element name="R2" library="rcl" package="R1206" value="" x="56.46" y="45.01" rot="R180"/>
-<element name="R3" library="rcl" package="R1206" value="" x="56.46" y="56.02" rot="R180"/>
-<element name="R6" library="rcl" package="R1206" value="" x="56.46" y="33.5"/>
-<element name="R7" library="rcl" package="R1206" value="" x="56.44" y="38.51" rot="R180"/>
-<element name="SW1" library="adafruit" package="EVQ-Q2" value="SPST_TACT-EVQQ2" x="77.53" y="57.58" rot="R90"/>
-<element name="J5" library="Connector " package="4P-SMD-2.0" value="" x="33.56" y="26.44" rot="R90"/>
-<element name="J2" library="Connector " package="4P-SMD-2.0" value="" x="33.56" y="42.22" rot="R90"/>
+<element name="R1" library="rcl" package="R1206" value="" x="56.46" y="61.53" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.53" y="61.96" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.73" y="64.07" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R2" library="rcl" package="R1206" value="" x="56.46" y="45.01" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.63" y="45.34" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.73" y="47.55" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R3" library="rcl" package="R1206" value="" x="56.46" y="56.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.53" y="56.35" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.73" y="58.56" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R6" library="rcl" package="R1206" value="" x="56.46" y="33.5" smashed="yes">
+<attribute name="NAME" x="59.19" y="33.27" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="55.19" y="30.96" size="1.27" layer="27"/>
+</element>
+<element name="R7" library="rcl" package="R1206" value="" x="56.44" y="38.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.61" y="38.84" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.71" y="41.05" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="SW1" library="adafruit" package="EVQ-Q2" value="SPST_TACT-EVQQ2" x="77.53" y="57.58" smashed="yes" rot="R90"/>
+<element name="J5" library="Connector " package="4P-SMD-2.0" value="" x="33.56" y="26.44" smashed="yes" rot="R90">
+<attribute name="VALUE" x="30.385" y="24.535" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="J2" library="Connector " package="4P-SMD-2.0" value="" x="33.56" y="42.22" smashed="yes" rot="R90">
+<attribute name="VALUE" x="30.385" y="40.315" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
 <element name="SG1" library="SparkFun-Electromechanical" package="BUZZER-CCV" value="BUZZERSMD2" x="42.12" y="54.42"/>
-<element name="SJ1" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="JUMPER-PAD-2-NC_BY_TRACE" x="77.5" y="25.5" rot="R270"/>
-<element name="SJ2" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="JUMPER-PAD-2-NC_BY_TRACE" x="80" y="25.5" rot="R270"/>
-<element name="S2" library="SparkFun-Electromechanical" package="AYZ0202" value="DPDT" x="65.6" y="57.9" rot="R90">
+<element name="SJ1" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="JUMPER-PAD-2-NC_BY_TRACE" x="77.5" y="25.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="75.77" y="25.9525" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="SJ2" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="JUMPER-PAD-2-NC_BY_TRACE" x="80" y="25.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.27" y="25.9525" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="S2" library="SparkFun-Electromechanical" package="AYZ0202" value="DPDT" x="65.6" y="57.9" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="SWCH-08179" x="65.6" y="57.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RV1" library="SparkFun-Electromechanical" package="ALPS_POT" value="" x="77.5" y="43" rot="R180">
+<element name="RV1" library="SparkFun-Electromechanical" package="ALPS_POT" value="" x="77.5" y="43" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="RES-09177" x="77.5" y="43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R4" library="rcl" package="R1206" value="" x="56.5" y="50.5" rot="R180"/>
-<element name="R8" library="rcl" package="R0603" value="" x="57" y="64" rot="R180"/>
-<element name="R5" library="rcl" package="R0603" value="" x="57" y="47.5" rot="R180"/>
-<element name="R9" library="rcl" package="R0603" value="" x="57" y="58.5" rot="R180"/>
-<element name="R10" library="rcl" package="R0603" value="" x="57" y="53" rot="R180"/>
-<element name="R11" library="rcl" package="R0603" value="" x="57" y="36" rot="R180"/>
-<element name="R12" library="rcl" package="R0603" value="" x="57" y="41" rot="R180"/>
+<element name="R4" library="rcl" package="R1206" value="" x="56.5" y="50.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.67" y="50.83" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.77" y="53.04" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R8" library="rcl" package="R0603" value="" x="57" y="64" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.335" y="64.265" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.635" y="65.905" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R5" library="rcl" package="R0603" value="" x="57" y="47.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.235" y="47.965" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.635" y="49.405" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R9" library="rcl" package="R0603" value="" x="57" y="58.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.435" y="58.765" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.635" y="60.405" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R10" library="rcl" package="R0603" value="" x="57" y="53" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.935" y="53.365" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.635" y="54.905" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R11" library="rcl" package="R0603" value="" x="57" y="36" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.835" y="36.365" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.635" y="37.905" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R12" library="rcl" package="R0603" value="" x="57" y="41" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.835" y="41.365" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.635" y="42.905" size="1.27" layer="27" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
