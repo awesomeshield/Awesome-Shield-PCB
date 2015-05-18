@@ -1572,23 +1572,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Seeed-OPL-Connector">
 <packages>
 <package name="HW4-SMD-2.0">
-<wire x1="-6.1" y1="1.073" x2="-3.8" y2="1.073" width="0.254" layer="21"/>
+<wire x1="-6.1" y1="1.073" x2="-4" y2="1.073" width="0.254" layer="21"/>
 <wire x1="-6.1" y1="5.273" x2="6.1" y2="5.273" width="0.254" layer="21"/>
 <wire x1="-6.1" y1="1.073" x2="-6.1" y2="0.173" width="0.254" layer="21"/>
-<wire x1="-6.1" y1="0.173" x2="-3.8" y2="0.173" width="0.254" layer="21"/>
-<wire x1="-3.8" y1="0.173" x2="-3.8" y2="1.073" width="0.254" layer="21"/>
-<wire x1="-3.8" y1="1.073" x2="3.8" y2="1.073" width="0.254" layer="21"/>
-<wire x1="3.8" y1="1.073" x2="6.1" y2="1.073" width="0.254" layer="21"/>
-<wire x1="3.8" y1="1.073" x2="3.8" y2="0.173" width="0.254" layer="21"/>
-<wire x1="3.8" y1="0.173" x2="6.1" y2="0.173" width="0.254" layer="21"/>
+<wire x1="-6.1" y1="0.173" x2="-4" y2="0.173" width="0.254" layer="21"/>
+<wire x1="4" y1="1.073" x2="6.1" y2="1.073" width="0.254" layer="21"/>
+<wire x1="4" y1="0.173" x2="6.1" y2="0.173" width="0.254" layer="21"/>
 <wire x1="6.1" y1="0.173" x2="6.1" y2="1.073" width="0.254" layer="21"/>
 <wire x1="-6.1" y1="5.273" x2="6.1" y2="5.273" width="0.254" layer="39"/>
 <wire x1="-6.053" y1="0.079" x2="-3.775" y2="0.079" width="0.254" layer="39"/>
 <wire x1="3.775" y1="-0.021" x2="6.053" y2="-0.021" width="0.254" layer="39"/>
-<wire x1="-6.1" y1="5.273" x2="-6.1" y2="4.573" width="0.254" layer="21"/>
-<wire x1="-6.1" y1="1.073" x2="-6.1" y2="1.719" width="0.254" layer="21"/>
-<wire x1="6.1" y1="5.273" x2="6.1" y2="4.573" width="0.254" layer="21"/>
-<wire x1="6.1" y1="1.073" x2="6.1" y2="1.719" width="0.254" layer="21"/>
 <wire x1="-6.1" y1="5.273" x2="-6.1" y2="4.573" width="0.254" layer="39"/>
 <wire x1="-6.1" y1="1.973" x2="-6.1" y2="0.073" width="0.254" layer="39"/>
 <wire x1="6.1" y1="1.973" x2="6.1" y2="-0.027" width="0.254" layer="39"/>
@@ -1604,6 +1597,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="SS2" x="5.8" y="3.123" dx="2.5" dy="2" layer="1" rot="R90"/>
 <text x="-1.905" y="5.588" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
 <text x="-1.905" y="2.413" size="0.889" layer="27" font="vector" ratio="11">&gt;VALUE</text>
+<wire x1="-6.1" y1="5.25" x2="-6.1" y2="4.8" width="0.254" layer="21"/>
+<wire x1="6.1" y1="5.25" x2="6.1" y2="4.8" width="0.254" layer="21"/>
+<wire x1="-6.1" y1="1.073" x2="-6.1" y2="1.45" width="0.254" layer="21"/>
+<wire x1="6.1" y1="1.073" x2="6.1" y2="1.45" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
