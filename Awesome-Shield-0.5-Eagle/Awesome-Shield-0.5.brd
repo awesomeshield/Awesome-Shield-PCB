@@ -1865,8 +1865,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="62.035" y="41.365" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="58.635" y="42.905" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J3" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="36" y="26.5" rot="R90"/>
-<element name="J4" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="34" y="58.5" rot="R90"/>
+<element name="J3" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="36" y="26.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="33.587" y="24.595" size="0.889" layer="27" font="vector" ratio="11" rot="R90"/>
+</element>
+<element name="J4" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="34" y="58.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="31.587" y="56.595" size="0.889" layer="27" font="vector" ratio="11" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
