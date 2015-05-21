@@ -173,6 +173,14 @@
 <wire x1="81.72" y1="16.8" x2="38" y2="16.8" width="2" layer="46"/>
 <wire x1="29.08" y1="72.1" x2="35.5" y2="72.1" width="2" layer="46"/>
 <wire x1="81.72" y1="72.1" x2="38" y2="72.1" width="2" layer="46"/>
+<text x="39" y="25.7" size="1.016" layer="21" rot="R90">port1</text>
+<text x="37" y="58.5" size="1.016" layer="21" rot="R90">port2</text>
+<text x="55.5" y="60" size="1.016" layer="21" rot="R90">buzzer</text>
+<text x="68.9" y="54.4" size="1.016" layer="21" rot="R90">toggleSwitch</text>
+<text x="81.7" y="56.3" size="1.016" layer="21" rot="R90">button</text>
+<text x="77.8" y="39.1" size="1.016" layer="21" rot="R90">potentiometer</text>
+<text x="74.1" y="30.5" size="1.016" layer="21" rot="R90">lightSensor</text>
+<text x="81.8" y="29.5" size="1.016" layer="21" rot="R90">temperatureSensor</text>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
@@ -1962,10 +1970,10 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <vertex x="81.3" y="71.1"/>
 </polygon>
 <via x="36" y="63.5" extent="1-16" drill="0.6"/>
-<via x="78.5" y="45.5" extent="1-16" drill="0.6"/>
+<via x="79.5" y="45.5" extent="1-16" drill="0.6"/>
 <via x="40.5" y="21.5" extent="1-16" drill="0.6"/>
 <via x="55.5" y="48.5" extent="1-16" drill="0.6"/>
-<via x="74.5" y="33.5" extent="1-16" drill="0.6"/>
+<via x="75.5" y="33.5" extent="1-16" drill="0.6"/>
 <via x="67" y="41" extent="1-16" drill="0.6"/>
 <via x="31" y="67.5" extent="1-16" drill="0.6"/>
 <contactref element="J3" pad="4"/>
