@@ -181,6 +181,9 @@
 <text x="81.8" y="39.1" size="1.016" layer="21" rot="R90">potentiometer</text>
 <text x="67.3" y="28.9" size="1.016" layer="21" rot="R90">lightSensor</text>
 <text x="82.2" y="25.7" size="1.016" layer="21" rot="R90">temperatureSensor</text>
+<text x="32" y="50.5" size="1.016" layer="21" rot="R270">Awesome Shield Labs
+Prototype V0.51</text>
+<text x="35" y="44.4" size="0.6096" layer="21" rot="R270">Awesome Shield UG</text>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
@@ -1970,7 +1973,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <via x="78.9" y="35.4" extent="1-16" drill="0.6"/>
 <via x="31.5" y="67.5" extent="1-16" drill="0.6"/>
 <via x="40.5" y="43.7" extent="1-16" drill="0.6"/>
-<via x="35" y="39.7" extent="1-16" drill="0.6"/>
+<via x="35.3" y="35.2" extent="1-16" drill="0.6"/>
 <contactref element="J3" pad="4"/>
 <contactref element="J3" pad="SS1"/>
 <contactref element="J3" pad="SS2"/>
@@ -2096,11 +2099,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <wire x1="35" y1="23.5" x2="40" y2="23.5" width="0.4064" layer="16"/>
 <wire x1="39.94" y1="23.44" x2="40" y2="23.5" width="0.4064" layer="1"/>
 <wire x1="35.56" y1="64.56" x2="33" y2="62" width="0.4064" layer="16"/>
-<wire x1="33" y1="25.5" x2="33" y2="37" width="0.4064" layer="16"/>
-<wire x1="33" y1="37" x2="32.5" y2="37.5" width="0.4064" layer="16"/>
-<wire x1="32.5" y1="37.5" x2="32.5" y2="41.5" width="0.4064" layer="16"/>
-<wire x1="32.5" y1="41.5" x2="33" y2="42" width="0.4064" layer="16"/>
-<wire x1="33" y1="42" x2="33" y2="62" width="0.4064" layer="16"/>
+<wire x1="33" y1="25.5" x2="33" y2="62" width="0.4064" layer="16"/>
 <contactref element="J3" pad="1"/>
 <contactref element="J2" pad="SCL"/>
 <wire x1="35.56" y1="68.58" x2="35.56" y2="64.56" width="0.4064" layer="16"/>
@@ -2288,4 +2287,10 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
