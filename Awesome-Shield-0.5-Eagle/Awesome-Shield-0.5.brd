@@ -2161,8 +2161,8 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <wire x1="39.35" y1="55" x2="39.27" y2="54.92" width="0.4064" layer="1"/>
 </signal>
 <signal name="D4">
-<via x="60" y="64.5" extent="1-16" drill="0.6"/>
-<wire x1="60" y1="64.5" x2="56.5" y2="64.5" width="0.4064" layer="1"/>
+<via x="58" y="64.5" extent="1-16" drill="0.6"/>
+<wire x1="58" y1="64.5" x2="56.5" y2="64.5" width="0.4064" layer="1"/>
 <wire x1="56.5" y1="64.5" x2="44" y2="52" width="0.4064" layer="1"/>
 <wire x1="44" y1="52" x2="37" y2="52" width="0.4064" layer="1"/>
 <wire x1="36.2" y1="52.8" x2="37" y2="52" width="0.4064" layer="1"/>
@@ -2171,7 +2171,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <wire x1="35.5" y1="57" x2="36.2" y2="56.3" width="0.4064" layer="1"/>
 <wire x1="36.2" y1="52.8" x2="36.2" y2="56.3" width="0.4064" layer="1"/>
 <contactref element="J2" pad="D4"/>
-<wire x1="60" y1="64.5" x2="68.3" y2="64.5" width="0.4064" layer="16"/>
+<wire x1="58" y1="64.5" x2="68.3" y2="64.5" width="0.4064" layer="16"/>
 <wire x1="69.85" y1="68.58" x2="69.85" y2="66.05" width="0.4064" layer="16"/>
 <wire x1="69.85" y1="66.05" x2="68.3" y2="64.5" width="0.4064" layer="16"/>
 </signal>
