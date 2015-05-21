@@ -1630,28 +1630,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <clearance class="0" value="0.1524"/>
 </class>
 </classes>
-<designrules name="haka_35_l2">
+<designrules name="hakaZwilling">
 <description language="de">
-&lt;b&gt;HAKA  Design-Regeln für Standardleiterplatten (Stand 29.07.2009):&lt;/b&gt;&lt;br&gt;
+
+
+&lt;b&gt;HAKA  Design-Regeln für Zwillingsleiterplatten (Stand 12.12.2008):&lt;/b&gt;&lt;br&gt;
 &lt;br&gt;
-Diese DRU-Datei enthält alle erforderlichen Design Einstellungen, damit Ihre Leiterplatten bei uns fehlerfrei und kostengünstig produziert werden können. Die Optionen Shapes und Misc sind nicht relevant und der minimale Wert für Roundness Shapes sollte auf 0 gesetzt werden. &lt;br&gt;
+Diese DRU-Datei enthält alle erforderlichen Design Einstellungen, damit Ihre Zwillingsleiterplatten bei uns fehlerfrei und kostengünstig produziert werden können. Die Optionen Shapes und Misc sind nicht relevant und der minimale Wert für Roundness Shapes sollte auf 0 gesetzt werden. &lt;br&gt;
 &lt;br&gt;
 Übersicht der &lt;b&gt; HAKA &lt;/b&gt; Regeln:&lt;br&gt;
 &lt;br&gt;
 &lt;b&gt;allgemein:&lt;/b&gt;
 &lt;P&gt;
-minimale Leiterbahnbreite/-abstand: 0.15 mm&lt;br&gt;
-Strichstärke für Kupferschrift sollte mind. 0.15 mm sein um gut lesbar zu bleiben&lt;br&gt;
-kleinster Bohrdurchmesser: 0.3 mm --&gt; kleinstes Lötauge 0.6mm&lt;br&gt;
+minimale Leiterbahnbreite/-abstand: 0.2 mm&lt;br&gt;
+Strichstärke für Kupferschrift sollte mind. 0.2 mm sein um gut lesbar zu bleiben&lt;br&gt;
+kleinster Bohrdurchmesser: 0.5 mm --&gt; kleinstes Lötauge 0.9mm&lt;br&gt;
+&lt;br&gt;
+Bitte beachten Sie, daß die Mindesteinstellungen nicht reduziert werden, da ansonsten keine Gewährleistung für eine  fehlerfreie Produktion übernommen werden kann.&lt;br&gt;
 &lt;br&gt;
 &lt;b&gt;Restringe um DK-Bohrungen:&lt;/b&gt;&lt;br&gt;
-Aussenlagen: 0.15 mm&lt;br&gt;
+Aussenlagen: 0.2 mm&lt;br&gt;
 &lt;br&gt;
-Polygon-Isolierungen: 0.15 mm&lt;br&gt;
-Bitte beachten Sie, daß die Mindesteinstellungen nicht reduziert werden, da ansonsten keine Gewährleistung für eine  fehlerfreie Produktion übernommen werden kann.&lt;br&gt;&lt;br&gt;
+Polygon-Isolierungen: 0.3 mm&lt;br&gt;
+&lt;br&gt;
 &lt;font color=&quot;red&quot;&gt;&lt;b&gt;Achtung:&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
 Verwenden Sie bitte nur den Vektor-Font, da nur dieser bei der Gerber-Ausgabe generiert werden kann, andere Schriftarten können zu Fehlern führen!&lt;br&gt;
-Die Linienstärke  für Polygone  sollte größer sein als 0.1mm. Es entstehen ansonsten extrem große Datenmengen, weil Eagle die  Polygone mit der angegebenen Strichstärke füllt. &lt;br&gt;
+Die Linienstärke  für Polygone  sollte größer sein als 0.2mm. Es entstehen ansonsten extrem große Datenmengen, weil Eagle die  Polygone mit der angegebenen Strichstärke füllt. &lt;br&gt;
 &lt;br&gt;
 &lt;b&gt; Fräskonturen:&lt;/b&gt;&lt;br&gt;
  werden im Dimension-Layer die Fräswege mit einem 2mm Werkzeug gezeichnet, so können diese Daten direkt als Fräsprogramm übernommen, und so die Leiterplatten kostenfrei mit jeder Kontur gefräst werden!&lt;br&gt;
@@ -1663,12 +1667,12 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm 1.5mm"/>
-<param name="mdWireWire" value="0.15mm"/>
-<param name="mdWirePad" value="0.15mm"/>
-<param name="mdWireVia" value="0.15mm"/>
+<param name="mdWireWire" value="0.2mm"/>
+<param name="mdWirePad" value="0.2mm"/>
+<param name="mdWireVia" value="0.2mm"/>
 <param name="mdPadPad" value="0.15mm"/>
-<param name="mdPadVia" value="0.15mm"/>
-<param name="mdViaVia" value="0.15mm"/>
+<param name="mdPadVia" value="0.2mm"/>
+<param name="mdViaVia" value="0.2mm"/>
 <param name="mdSmdPad" value="0mil"/>
 <param name="mdSmdVia" value="0mil"/>
 <param name="mdSmdSmd" value="0mil"/>
@@ -1677,8 +1681,8 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <param name="mdCopperDimension" value="0.2mm"/>
 <param name="mdDrill" value="0.2mm"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="0.15mm"/>
-<param name="msDrill" value="0.3mm"/>
+<param name="msWidth" value="0.2mm"/>
+<param name="msDrill" value="0.5mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0"/>
@@ -1690,13 +1694,13 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <param name="rvMicroViaInner" value="0"/>
 <param name="rlMinPadTop" value="0.2mm"/>
 <param name="rlMaxPadTop" value="20mm"/>
-<param name="rlMinPadInner" value="0.3mm"/>
+<param name="rlMinPadInner" value="0.4mm"/>
 <param name="rlMaxPadInner" value="20mm"/>
 <param name="rlMinPadBottom" value="0.2mm"/>
 <param name="rlMaxPadBottom" value="20mm"/>
 <param name="rlMinViaOuter" value="0.2mm"/>
 <param name="rlMaxViaOuter" value="20mm"/>
-<param name="rlMinViaInner" value="0.3mm"/>
+<param name="rlMinViaInner" value="0.4mm"/>
 <param name="rlMaxViaInner" value="20mm"/>
 <param name="rlMinMicroViaOuter" value="9.99mm"/>
 <param name="rlMaxMicroViaOuter" value="20mm"/>
@@ -1712,7 +1716,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <param name="mlMinStopFrame" value="0.1mm"/>
 <param name="mlMaxStopFrame" value="0.1mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
-<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="20mm"/>
 <param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
