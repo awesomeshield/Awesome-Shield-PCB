@@ -176,12 +176,15 @@
 <text x="28.5" y="62.5" size="1.016" layer="21" rot="SR270">toggleSwitch</text>
 <text x="27.5" y="51.5" size="1.016" layer="21" rot="SR270">button</text>
 <text x="30.4" y="42.8" size="1.016" layer="21" rot="SR270">potentiometer</text>
-<text x="29.7" y="32.3" size="1.016" layer="21" rot="SR270">temperatureSensor</text>
+<text x="29.5" y="32.3" size="1.016" layer="21" rot="SR270">temperatureSensor</text>
 <text x="37.5" y="27.5" size="1.016" layer="21" rot="SR270">lightSensor</text>
 <text x="61" y="34" size="1.016" layer="21" rot="SR270">port1</text>
 <text x="61" y="42" size="1.016" layer="21" rot="SR270">port2</text>
 <text x="62" y="63.5" size="1.016" layer="21" rot="SR270">buzzer</text>
 <text x="41.3" y="60.4" size="1.016" layer="21" rot="SR270">LED</text>
+<text x="48.5" y="50.5" size="1.016" layer="21" rot="SR270">Awesome Shield Labs
+Prototype V0.52</text>
+<text x="47.5" y="50.5" size="0.6096" layer="21" rot="SR270">Awesome Shield UG</text>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
@@ -2260,4 +2263,10 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
