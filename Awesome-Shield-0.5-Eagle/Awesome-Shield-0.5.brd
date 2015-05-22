@@ -1876,7 +1876,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <attribute name="PROD_ID" value="RES-09177" x="75" y="43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R4" library="rcl" package="R1206" value="" x="57.5" y="50.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.67" y="50.83" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="62.17" y="50.83" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="58.77" y="53.04" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="rcl" package="R0603" value="" x="58" y="64" smashed="yes" rot="R180">
@@ -2111,16 +2111,15 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <wire x1="42" y1="25.5" x2="74.5" y2="25.5" width="0.4064" layer="16"/>
 <wire x1="74.5" y1="25.5" x2="77.5" y2="28.5" width="0.4064" layer="16"/>
 <wire x1="38.1" y1="64.6" x2="36" y2="62.5" width="0.4064" layer="16"/>
-<wire x1="41.94" y1="25.44" x2="42" y2="25.5" width="0.4064" layer="1"/>
 <via x="42" y="25.5" extent="1-16" drill="0.6"/>
 <wire x1="36" y1="62.5" x2="36" y2="44.5" width="0.4064" layer="16"/>
 <wire x1="36" y1="44.5" x2="37.5" y2="43" width="0.4064" layer="16"/>
 <wire x1="37.5" y1="43" x2="37.5" y2="30" width="0.4064" layer="16"/>
 <wire x1="37.5" y1="30" x2="42" y2="25.5" width="0.4064" layer="16"/>
 <contactref element="J3" pad="2"/>
-<wire x1="36" y1="25.5" x2="42" y2="25.5" width="0.4064" layer="1"/>
 <contactref element="J2" pad="SDA"/>
 <wire x1="38.1" y1="68.58" x2="38.1" y2="64.6" width="0.4064" layer="16"/>
+<wire x1="36" y1="25.5" x2="42" y2="25.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="D8">
 <contactref element="S2" pad="2"/>
