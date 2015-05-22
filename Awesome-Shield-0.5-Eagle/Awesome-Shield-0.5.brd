@@ -184,6 +184,8 @@
 <text x="44" y="46" size="1.016" layer="21" rot="R180">Awesome Shield Labs
 Prototype V0.50</text>
 <text x="37.8" y="42.9" size="0.6096" layer="21" rot="R180">Awesome Shield UG</text>
+<text x="66.5" y="53.2" size="1.016" layer="21" rot="R90">on</text>
+<text x="66.5" y="61.5" size="1.016" layer="21" rot="R90">off</text>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
