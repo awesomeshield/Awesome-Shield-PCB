@@ -2097,13 +2097,12 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <wire x1="80" y1="26.008" x2="80" y2="28.5" width="0.4064" layer="16"/>
 <wire x1="33" y1="25.5" x2="35" y2="23.5" width="0.4064" layer="16"/>
 <wire x1="35" y1="23.5" x2="40" y2="23.5" width="0.4064" layer="16"/>
-<wire x1="39.94" y1="23.44" x2="40" y2="23.5" width="0.4064" layer="1"/>
 <wire x1="35.56" y1="64.56" x2="33" y2="62" width="0.4064" layer="16"/>
 <wire x1="33" y1="25.5" x2="33" y2="62" width="0.4064" layer="16"/>
 <contactref element="J3" pad="1"/>
 <contactref element="J2" pad="SCL"/>
 <wire x1="35.56" y1="68.58" x2="35.56" y2="64.56" width="0.4064" layer="16"/>
-<wire x1="35" y1="23.5" x2="36" y2="23.5" width="0" layer="19" extent="1-16"/>
+<wire x1="36" y1="23.5" x2="40" y2="23.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="SJ1" pad="1"/>
