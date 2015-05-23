@@ -5699,6 +5699,10 @@ Various fiducial points for machine vision alignment.</description>
 <part name="FID11" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID12" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID13" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID15" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID16" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID17" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID18" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -5749,19 +5753,23 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="J3" gate="G$1" x="180.34" y="57.15"/>
 <instance part="J4" gate="G$1" x="337.82" y="64.77"/>
 <instance part="J2" gate="G$1" x="195.58" y="132.08"/>
-<instance part="FID1" gate="G$1" x="294.64" y="30.48"/>
-<instance part="FID2" gate="G$1" x="299.72" y="30.48"/>
-<instance part="FID3" gate="G$1" x="304.8" y="30.48"/>
-<instance part="FID4" gate="G$1" x="309.88" y="30.48"/>
-<instance part="FID5" gate="G$1" x="294.64" y="38.1"/>
-<instance part="FID6" gate="G$1" x="299.72" y="38.1"/>
-<instance part="FID7" gate="G$1" x="304.8" y="38.1"/>
-<instance part="FID8" gate="G$1" x="309.88" y="38.1"/>
-<instance part="FID9" gate="G$1" x="294.64" y="45.72"/>
-<instance part="FID10" gate="G$1" x="299.72" y="45.72"/>
-<instance part="FID11" gate="G$1" x="304.8" y="45.72"/>
-<instance part="FID12" gate="G$1" x="309.88" y="45.72"/>
-<instance part="FID13" gate="G$1" x="294.64" y="53.34"/>
+<instance part="FID1" gate="G$1" x="15.24" y="15.24"/>
+<instance part="FID2" gate="G$1" x="20.32" y="15.24"/>
+<instance part="FID3" gate="G$1" x="25.4" y="15.24"/>
+<instance part="FID4" gate="G$1" x="30.48" y="15.24"/>
+<instance part="FID5" gate="G$1" x="15.24" y="22.86"/>
+<instance part="FID6" gate="G$1" x="20.32" y="22.86"/>
+<instance part="FID7" gate="G$1" x="25.4" y="22.86"/>
+<instance part="FID8" gate="G$1" x="30.48" y="22.86"/>
+<instance part="FID9" gate="G$1" x="15.24" y="30.48"/>
+<instance part="FID10" gate="G$1" x="20.32" y="30.48"/>
+<instance part="FID11" gate="G$1" x="25.4" y="30.48"/>
+<instance part="FID12" gate="G$1" x="30.48" y="30.48"/>
+<instance part="FID13" gate="G$1" x="15.24" y="38.1"/>
+<instance part="FID15" gate="G$1" x="25.4" y="38.1"/>
+<instance part="FID16" gate="G$1" x="30.48" y="38.1"/>
+<instance part="FID17" gate="G$1" x="15.24" y="45.72"/>
+<instance part="FID18" gate="G$1" x="20.32" y="38.1"/>
 </instances>
 <busses>
 </busses>
