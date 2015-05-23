@@ -165,25 +165,25 @@
 <wire x1="81.72" y1="16.8" x2="44.5" y2="16.8" width="2" layer="46"/>
 <wire x1="33.28" y1="72.1" x2="42" y2="72.1" width="2" layer="46"/>
 <wire x1="81.72" y1="72.1" x2="44.5" y2="72.1" width="2" layer="46"/>
-<text x="17.832" y="67.072" size="1.016" layer="21" rot="SR270">toggleSwitch</text>
-<text x="12.26" y="45.404" size="1.016" layer="21" rot="SR270">button</text>
-<text x="19.732" y="42.8" size="1.016" layer="21" rot="SR270">potentiometer</text>
-<text x="35.264" y="10.704" size="1.016" layer="21" rot="SR0">temperatureSensor</text>
-<text x="24.824" y="12.608" size="1.016" layer="21" rot="SR0">lightSensor</text>
-<text x="65.064" y="33.492" size="1.016" layer="21" rot="SR270">port1</text>
-<text x="65.064" y="42" size="1.016" layer="21" rot="SR270">port2</text>
-<text x="87.4" y="61.976" size="1.016" layer="21" rot="SR270">buzzer</text>
-<text x="21.488" y="59.384" size="1.016" layer="21" rot="SR270">LED</text>
-<text x="21.576" y="45.928" size="1.016" layer="21" rot="SR270">Awesome Shield Labs
+<text x="17.832" y="67.072" size="1.016" layer="21" font="vector" rot="SR270">toggleSwitch</text>
+<text x="12.26" y="45.404" size="1.016" layer="21" font="vector" rot="SR270">button</text>
+<text x="19.732" y="42.8" size="1.016" layer="21" font="vector" rot="SR270">potentiometer</text>
+<text x="35.264" y="10.704" size="1.016" layer="21" font="vector" rot="SR0">temperatureSensor</text>
+<text x="24.824" y="12.608" size="1.016" layer="21" font="vector" rot="SR0">lightSensor</text>
+<text x="65.064" y="33.492" size="1.016" layer="21" font="vector" rot="SR270">port1</text>
+<text x="65.064" y="42" size="1.016" layer="21" font="vector" rot="SR270">port2</text>
+<text x="87.4" y="61.976" size="1.016" layer="21" font="vector" rot="SR270">buzzer</text>
+<text x="21.488" y="59.384" size="1.016" layer="21" font="vector" rot="SR270">LED</text>
+<text x="21.576" y="45.928" size="1.016" layer="21" font="vector" rot="SR270">Awesome Shield Labs
 Prototype V0.52</text>
-<text x="54.656" y="8.384" size="0.6096" layer="21" rot="SR0">Awesome Shield UG
+<text x="54.656" y="8.384" size="0.6096" layer="21" font="vector" rot="SR0">Awesome Shield UG
 license info here, CERN OHL, CC-0, MIT etc
 
 this text is too small to be printed without aliasing. using a vector font is highly recommended
 
 I suggest to use the bottom text layer for license and instructions (there is a lot of space left!) and the top for components.</text>
-<text x="18.292" y="71.628" size="1.016" layer="21" rot="SR270">on</text>
-<text x="18.292" y="56.524" size="1.016" layer="21" rot="SR270">off</text>
+<text x="18.292" y="71.628" size="1.016" layer="21" font="vector" rot="SR270">on</text>
+<text x="18.292" y="56.524" size="1.016" layer="21" font="vector" rot="SR270">off</text>
 <rectangle x1="55.5" y1="44.5" x2="60.5" y2="65.5" layer="41"/>
 <rectangle x1="55.5" y1="24.5" x2="60.5" y2="35" layer="41"/>
 <dimension x1="32.5" y1="69.9" x2="82.5" y2="69.9" x3="57.5" y3="78.5" textsize="1.778" layer="21"/>
@@ -1867,23 +1867,23 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <attribute name="VALUE" x="34.3" y="40" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="R1" library="rcl" package="R1206" value="" x="58" y="62" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.17" y="62.43" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="62.17" y="62.43" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.27" y="64.54" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R2" library="rcl" package="R1206" value="" x="58" y="45.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.17" y="45.83" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="62.17" y="45.83" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.27" y="48.04" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R3" library="rcl" package="R1206" value="" x="58" y="54.05" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.17" y="54.58" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="62.17" y="54.58" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.27" y="56.59" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R6" library="rcl" package="R1206" value="" x="58" y="31.5" smashed="yes">
-<attribute name="NAME" x="60.73" y="31.27" size="0.8128" layer="25"/>
+<attribute name="NAME" x="60.73" y="31.27" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="56.73" y="28.96" size="1.27" layer="27"/>
 </element>
 <element name="R7" library="rcl" package="R1206" value="" x="58" y="25.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.17" y="25.83" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="62.17" y="25.83" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.27" y="28.04" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="SW1" library="adafruit" package="EVQ-Q2" value="SPST_TACT-EVQQ2" x="40.5" y="48.5" smashed="yes" rot="R180"/>
@@ -1897,31 +1897,31 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <attribute name="PROD_ID" value="RES-09177" x="46.5" y="38" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="rcl" package="R1206" value="" x="58" y="51" smashed="yes">
-<attribute name="NAME" x="53.83" y="50.67" size="0.8128" layer="25"/>
+<attribute name="NAME" x="53.83" y="50.67" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="56.73" y="48.46" size="1.27" layer="27"/>
 </element>
 <element name="R8" library="rcl" package="R0603" value="" x="58.5" y="64.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.835" y="64.765" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="61.835" y="64.765" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.135" y="66.405" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R5" library="rcl" package="R0603" value="" x="58.5" y="48" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.735" y="48.465" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="61.735" y="48.465" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.135" y="49.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R9" library="rcl" package="R0603" value="" x="57.428" y="57" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.863" y="57.965" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="60.863" y="57.965" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="58.063" y="58.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="rcl" package="R0603" value="" x="57.428" y="58.8" smashed="yes">
-<attribute name="NAME" x="52.993" y="58.435" size="0.8128" layer="25"/>
+<attribute name="NAME" x="52.993" y="58.435" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="56.793" y="56.895" size="1.27" layer="27"/>
 </element>
 <element name="R11" library="rcl" package="R0603" value="" x="58.5" y="34" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.335" y="34.365" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="62.335" y="34.365" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.135" y="35.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R12" library="rcl" package="R0603" value="" x="58.5" y="28" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.535" y="28.365" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="62.535" y="28.365" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="59.135" y="29.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J3" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="73.5" y="34" smashed="yes" rot="R180">
