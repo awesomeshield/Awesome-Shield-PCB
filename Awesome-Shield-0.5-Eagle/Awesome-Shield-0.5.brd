@@ -187,7 +187,6 @@ I suggest to use the bottom text layer for license and instructions (there is a 
 <text x="18.292" y="71.628" size="1.016" layer="21" rot="SR270">on</text>
 <text x="18.292" y="56.524" size="1.016" layer="21" rot="SR270">off</text>
 <rectangle x1="55.372" y1="44.196" x2="60.452" y2="65.532" layer="41"/>
-<dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="17.78" textsize="1.778" layer="16"/>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
@@ -1931,10 +1930,10 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <attribute name="VALUE" x="75.405" y="41.087" size="0.889" layer="27" font="vector" ratio="11" rot="R180"/>
 </element>
 <element name="J2" library="SparkFun-Boards" package="UNO_R3_SHIELD" value="ARDUINO_R3_SHIELD" x="24.7" y="71.12" rot="R270"/>
-<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="34.036" y="25.908"/>
-<element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="81.28" y="66.04"/>
-<element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="81.28" y="28.448"/>
-<element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="34.036" y="66.04"/>
+<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="34" y="26"/>
+<element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="81" y="66"/>
+<element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="81" y="28"/>
+<element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="34" y="66"/>
 <element name="FID5" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="40.64" y="48.514"/>
 <element name="FID6" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="39.116" y="58.42"/>
 <element name="FID7" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="67.056" y="44.196"/>
