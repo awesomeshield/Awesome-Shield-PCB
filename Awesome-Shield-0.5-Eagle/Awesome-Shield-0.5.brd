@@ -1659,7 +1659,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <clearance class="0" value="0.1524"/>
 </class>
 </classes>
-<designrules name="hakaZwilling">
+<designrules name="hakaZwilling *">
 <description language="de">
 
 
@@ -1746,7 +1746,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <param name="mlMaxStopFrame" value="0.1mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="20mm"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.6mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1935,15 +1935,15 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="81" y="66"/>
 <element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="81" y="28"/>
 <element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="34" y="66"/>
-<element name="FID5" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="40.64" y="48.514"/>
-<element name="FID6" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="39.116" y="58.42"/>
-<element name="FID7" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="67.056" y="44.196"/>
-<element name="FID8" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="67.056" y="34.544"/>
-<element name="FID9" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="41.148" y="43.18"/>
-<element name="FID10" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="53.34" y="33.02"/>
-<element name="FID11" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="68.58" y="56.388"/>
-<element name="FID12" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="76.708" y="56.388"/>
-<element name="FID13" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="72.644" y="52.578"/>
+<element name="FID5" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="40.5" y="48.5"/>
+<element name="FID6" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="39" y="58.5"/>
+<element name="FID7" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="67" y="44"/>
+<element name="FID8" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="67" y="34.5"/>
+<element name="FID9" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="49.5" y="58.5"/>
+<element name="FID10" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="53.5" y="33"/>
+<element name="FID11" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="68.5" y="56"/>
+<element name="FID12" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="76.5" y="56"/>
+<element name="FID13" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="72.5" y="52.5"/>
 </elements>
 <signals>
 <signal name="A1">
@@ -2300,12 +2300,12 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 </signal>
 </signals>
 <errors>
-<approved hash="7,39,94258af3c483a238"/>
-<approved hash="7,39,29fef406f40629fe"/>
-<approved hash="7,39,5ee6b8409dab0360"/>
-<approved hash="7,39,94478b8c45fc225a"/>
-<approved hash="7,39,5ee8b95c1cb88361"/>
-<approved hash="7,39,32fe2006200732ff"/>
+<approved hash="7,39,56454b1474f611b8"/>
+<approved hash="7,39,a7f742b4bbb226ee"/>
+<approved hash="7,39,befe2406247abe82"/>
+<approved hash="7,39,56234be5f42791da"/>
+<approved hash="7,39,a79143a43b63a76d"/>
+<approved hash="7,39,0dfee806e87a0d82"/>
 </errors>
 </board>
 </drawing>
