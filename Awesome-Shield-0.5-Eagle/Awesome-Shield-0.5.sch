@@ -281,7 +281,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="49.4157" y="50.038" size="1.016" layer="21" font="vector" ratio="15" rot="R180">3</text>
 <text x="49.4157" y="52.578" size="1.016" layer="21" font="vector" ratio="15" rot="R180">4</text>
 <text x="49.4157" y="55.118" size="1.016" layer="21" font="vector" ratio="15" rot="R180">5</text>
-<text x="46.8757" y="52.197" size="1.016" layer="21" font="vector" ratio="15" rot="R270">Analog In</text>
+<text x="46.8757" y="49.657" size="1.016" layer="21" font="vector" ratio="15" rot="R270">Analog In</text>
 <text x="3.81" y="17.272" size="1.016" layer="21" font="vector" ratio="15">GND</text>
 <text x="3.81" y="19.812" size="1.016" layer="21" font="vector" ratio="15">13</text>
 <text x="3.81" y="22.352" size="1.016" layer="21" font="vector" ratio="15">12</text>
@@ -4418,8 +4418,8 @@ datasheet
 http://www.tme.eu/en/Document/565faa25e36aa0e6e3f4693c6906e818/BZ-25SMD.pdf</description>
 <smd name="-" x="-7.35" y="0" dx="4.4" dy="3" layer="1"/>
 <smd name="+" x="7.35" y="0" dx="4.4" dy="3" layer="1"/>
-<wire x1="0" y1="-2.5" x2="0" y2="2.5" width="0.4064" layer="21"/>
-<wire x1="-2.5" y1="0" x2="2.5" y2="0" width="0.4" layer="21"/>
+<wire x1="0" y1="-2" x2="0" y2="2" width="0.4064" layer="21"/>
+<wire x1="-2" y1="0" x2="2" y2="0" width="0.4" layer="21"/>
 <wire x1="-8.4" y1="2.5" x2="8.5" y2="2.5" width="0.4" layer="21" curve="-147.037456"/>
 <wire x1="8.4" y1="-2.5" x2="-8.5" y2="-2.5" width="0.4" layer="21" curve="-147.037456"/>
 </package>
