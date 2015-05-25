@@ -2036,10 +2036,10 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <contactref element="J2" pad="GND@0"/>
 <via x="41" y="26" extent="1-16" drill="0.6" diameter="1.27"/>
 <via x="66.5" y="60" extent="1-16" drill="0.6" diameter="1.27"/>
-<via x="67.5" y="46.5" extent="1-16" drill="0.6" diameter="1.27"/>
+<via x="67.5" y="45.5" extent="1-16" drill="0.6" diameter="1.27"/>
 <via x="68.5" y="33.5" extent="1-16" drill="0.6" diameter="1.27"/>
 <via x="64" y="20.5" extent="1-16" drill="0.6" diameter="1.27"/>
-<via x="40.5" y="33.5" extent="1-16" drill="0.6" diameter="1.27"/>
+<via x="40" y="33" extent="1-16" drill="0.6" diameter="1.27"/>
 <via x="63.5" y="60.5" extent="1-16" drill="0.6" diameter="1.27"/>
 <via x="39" y="56" extent="1-16" drill="0.6" diameter="1.27"/>
 <via x="50" y="25.5" extent="1-16" drill="0.6" diameter="1.27"/>
