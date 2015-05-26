@@ -5700,7 +5700,6 @@ Various fiducial points for machine vision alignment.</description>
 <part name="FID12" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID13" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID15" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FID16" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -5765,7 +5764,6 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="FID12" gate="G$1" x="30.48" y="30.48"/>
 <instance part="FID13" gate="G$1" x="15.24" y="38.1"/>
 <instance part="FID15" gate="G$1" x="25.4" y="38.1"/>
-<instance part="FID16" gate="G$1" x="30.48" y="38.1"/>
 </instances>
 <busses>
 </busses>
