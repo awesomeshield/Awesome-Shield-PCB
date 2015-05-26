@@ -269,42 +269,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="D13" x="2.54" y="20.32" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="GND@2" x="2.54" y="17.78" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="AREF" x="2.54" y="15.24" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="49.4157" y="32.258" size="1.016" layer="22" font="vector" ratio="15" rot="R180">GND</text>
-<text x="49.4157" y="34.798" size="1.016" layer="22" font="vector" ratio="15" rot="R180">GND</text>
-<text x="49.4157" y="29.718" size="1.016" layer="22" font="vector" ratio="15" rot="R180">+5V</text>
-<text x="49.4157" y="24.638" size="1.016" layer="22" font="vector" ratio="15" rot="R180">RST</text>
-<text x="49.4157" y="37.338" size="1.016" layer="22" font="vector" ratio="15" rot="R180">VIN</text>
-<text x="49.4157" y="27.178" size="1.016" layer="22" font="vector" ratio="15" rot="R180">+3.3V</text>
-<text x="49.4157" y="42.418" size="1.016" layer="22" font="vector" ratio="15" rot="R180">0</text>
-<text x="49.4157" y="44.958" size="1.016" layer="22" font="vector" ratio="15" rot="R180">1</text>
-<text x="49.4157" y="47.498" size="1.016" layer="22" font="vector" ratio="15" rot="R180">2</text>
-<text x="49.4157" y="50.038" size="1.016" layer="22" font="vector" ratio="15" rot="R180">3</text>
-<text x="49.4157" y="52.578" size="1.016" layer="22" font="vector" ratio="15" rot="R180">4</text>
-<text x="49.4157" y="55.118" size="1.016" layer="22" font="vector" ratio="15" rot="R180">5</text>
-<text x="46.8757" y="49.657" size="1.016" layer="22" font="vector" ratio="15" rot="R270">Analog In</text>
-<text x="3.81" y="17.272" size="1.016" layer="22" font="vector" ratio="15">GND</text>
-<text x="3.81" y="19.812" size="1.016" layer="22" font="vector" ratio="15">13</text>
-<text x="3.81" y="22.352" size="1.016" layer="22" font="vector" ratio="15">12</text>
-<text x="3.81" y="24.892" size="1.016" layer="22" font="vector" ratio="15">11</text>
-<text x="3.81" y="14.732" size="1.016" layer="22" font="vector" ratio="15">AREF</text>
-<text x="3.81" y="27.432" size="1.016" layer="22" font="vector" ratio="15">10</text>
-<text x="3.81" y="29.972" size="1.016" layer="22" font="vector" ratio="15">9</text>
-<text x="3.81" y="32.512" size="1.016" layer="22" font="vector" ratio="15">8</text>
-<text x="3.81" y="36.322" size="1.016" layer="22" font="vector" ratio="15">7</text>
-<text x="3.81" y="38.862" size="1.016" layer="22" font="vector" ratio="15">6</text>
-<text x="3.81" y="41.402" size="1.016" layer="22" font="vector" ratio="15">5</text>
-<text x="3.81" y="43.942" size="1.016" layer="22" font="vector" ratio="15">4</text>
-<text x="3.81" y="46.482" size="1.016" layer="22" font="vector" ratio="15">3</text>
-<text x="3.81" y="49.022" size="1.016" layer="22" font="vector" ratio="15">2</text>
-<text x="3.81" y="51.562" size="1.016" layer="22" font="vector" ratio="15">TX</text>
-<text x="3.81" y="54.102" size="1.016" layer="22" font="vector" ratio="15">RX</text>
+<text x="46.7157" y="32.258" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
+<text x="46.7157" y="34.798" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">GND</text>
+<text x="46.7157" y="29.718" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">+5V</text>
+<text x="46.7157" y="24.638" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">RST</text>
+<text x="47.0157" y="37.338" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">VIN</text>
+<text x="45.3157" y="27.178" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">+3.3V</text>
+<text x="48.6157" y="42.418" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">0</text>
+<text x="48.6157" y="44.958" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">1</text>
+<text x="48.6157" y="47.498" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">2</text>
+<text x="48.6157" y="50.038" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">3</text>
+<text x="48.6157" y="52.578" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">4</text>
+<text x="48.6157" y="55.118" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">5</text>
+<text x="48.3757" y="49.657" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">Analog In</text>
+<text x="6.41" y="17.272" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
+<text x="5.51" y="19.812" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">13</text>
+<text x="5.51" y="22.352" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">12</text>
+<text x="5.51" y="24.892" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">11</text>
+<text x="7.31" y="14.732" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">AREF</text>
+<text x="5.51" y="27.432" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">10</text>
+<text x="4.51" y="29.972" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">9</text>
+<text x="4.51" y="32.512" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">8</text>
+<text x="4.51" y="36.322" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">7</text>
+<text x="4.51" y="38.862" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">6</text>
+<text x="4.51" y="41.402" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">5</text>
+<text x="4.51" y="43.942" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">4</text>
+<text x="4.51" y="46.482" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">3</text>
+<text x="4.51" y="49.022" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">2</text>
+<text x="5.51" y="51.562" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">TX</text>
+<text x="5.5" y="54.102" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">RX</text>
 <pad name="SDA" x="2.54" y="12.7" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="SCL" x="2.54" y="10.16" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="3.81" y="12.192" size="1.016" layer="22" font="vector" ratio="15">SDA</text>
-<text x="3.81" y="9.652" size="1.016" layer="22" font="vector" ratio="15">SCL</text>
+<text x="6.41" y="12.192" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">SDA</text>
+<text x="6.41" y="9.652" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">SCL</text>
 <pad name="IOREF" x="50.8" y="21.59" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="NC" x="50.8" y="19.05" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="49.4157" y="22.098" size="1.016" layer="22" font="vector" ratio="15" rot="R180">IOREF</text>
+<text x="45.1157" y="22.098" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">IOREF</text>
 <wire x1="22.225" y1="53.34" x2="21.59" y2="53.975" width="0.254" layer="51"/>
 <wire x1="21.59" y1="53.975" x2="21.59" y2="57.785" width="0.254" layer="51"/>
 <wire x1="21.59" y1="57.785" x2="22.225" y2="58.42" width="0.254" layer="51"/>
