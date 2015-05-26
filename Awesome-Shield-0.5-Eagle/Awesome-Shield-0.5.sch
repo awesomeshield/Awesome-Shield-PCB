@@ -5648,7 +5648,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="75 Ohm"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="75 Ohm"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="75 Ohm"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="2k Ohm"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="10K"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="10K Ohm"/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="THERMISTOR1206"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="PHOTOTRANSISTOR" device="PT17-21C-L41-TR8"/>
@@ -5676,7 +5676,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="75 Ohm"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="75 Ohm"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="75 Ohm"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="2k Ohm"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10K Ohm"/>
 <part name="J3" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
 <part name="J4" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
