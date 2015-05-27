@@ -4059,8 +4059,8 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <element name="R4" library="rcl" package="R1206" value="75 OHm" x="57.5" y="50.5" smashed="yes"/>
 <element name="R8" library="rcl" package="R0603" value="75 Ohm" x="58" y="64" smashed="yes" rot="R180"/>
 <element name="R5" library="rcl" package="R0603" value="75 Ohm" x="58" y="48" smashed="yes" rot="R180"/>
-<element name="R9" library="rcl" package="R0603" value="75 Ohm" x="57.5" y="56.5" smashed="yes" rot="R180"/>
-<element name="R10" library="rcl" package="R0603" value="75 Ohm" x="57.5" y="58.3" smashed="yes"/>
+<element name="R9" library="rcl" package="R0603" value="75 Ohm" x="58" y="56.5" smashed="yes" rot="R180"/>
+<element name="R10" library="rcl" package="R0603" value="75 Ohm" x="58" y="58.3" smashed="yes"/>
 <element name="R11" library="rcl" package="R0603" value="10K" x="58" y="37" smashed="yes"/>
 <element name="R12" library="rcl" package="R0603" value="10K Ohm" x="58" y="41.5" smashed="yes"/>
 <element name="J3" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="42" y="25" smashed="yes">
@@ -4195,8 +4195,8 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <wire x1="52.5" y1="54" x2="53" y2="53.5" width="0.4064" layer="1"/>
 <wire x1="53" y1="53.5" x2="56.028" y2="53.5" width="0.4064" layer="1"/>
 <wire x1="56.028" y1="53.5" x2="56.078" y2="53.55" width="0.4064" layer="1"/>
-<wire x1="56.078" y1="53.55" x2="56.078" y2="55.928" width="0.4064" layer="1"/>
-<wire x1="56.078" y1="55.928" x2="56.65" y2="56.5" width="0.4064" layer="1"/>
+<wire x1="57.15" y1="56.5" x2="57.15" y2="54.622" width="0.4064" layer="1"/>
+<wire x1="57.15" y1="54.622" x2="56.078" y2="53.55" width="0.4064" layer="1"/>
 </signal>
 <signal name="D2">
 <contactref element="SW1" pad="B"/>
@@ -4350,9 +4350,9 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <contactref element="R9" pad="1"/>
 <contactref element="R10" pad="2"/>
 <wire x1="58.922" y1="53.55" x2="58.922" y2="50.5" width="0.4064" layer="1"/>
-<wire x1="58.35" y1="58.3" x2="58.35" y2="56.5" width="0.4064" layer="1"/>
-<wire x1="58.922" y1="53.55" x2="58.922" y2="55.928" width="0.4064" layer="1"/>
-<wire x1="58.922" y1="55.928" x2="58.35" y2="56.5" width="0.4064" layer="1"/>
+<wire x1="58.85" y1="58.3" x2="58.85" y2="56.5" width="0.4064" layer="1"/>
+<wire x1="58.85" y1="56.5" x2="58.85" y2="53.622" width="0.4064" layer="1"/>
+<wire x1="58.85" y1="53.622" x2="58.922" y2="53.55" width="0.4064" layer="1"/>
 </signal>
 <signal name="D5">
 <contactref element="R4" pad="1"/>
@@ -4362,15 +4362,15 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <via x="54" y="50.5" extent="1-16" drill="0.6" diameter="1.27"/>
 <wire x1="54" y1="50.5" x2="54" y2="57.5" width="0.4064" layer="16"/>
 <wire x1="54" y1="57.5" x2="56.5" y2="60" width="0.4064" layer="16"/>
-<wire x1="56.5" y1="60" x2="57.5" y2="60" width="0.4064" layer="16"/>
-<via x="57.5" y="60" extent="1-16" drill="0.6" diameter="1.27"/>
+<wire x1="56.5" y1="60" x2="58" y2="60" width="0.4064" layer="16"/>
+<via x="58" y="60" extent="1-16" drill="0.6" diameter="1.27"/>
 <wire x1="66.525" y1="68.63" x2="66.13" y2="68.63" width="0.4064" layer="1"/>
 <wire x1="66.13" y1="68.63" x2="61" y2="63.5" width="0.4064" layer="1"/>
 <wire x1="61" y1="63.5" x2="61" y2="61.5" width="0.4064" layer="1"/>
 <wire x1="61" y1="61.5" x2="59.5" y2="60" width="0.4064" layer="1"/>
-<wire x1="59.5" y1="60" x2="57.5" y2="60" width="0.4064" layer="1"/>
-<wire x1="56.65" y1="58.3" x2="56.65" y2="59.15" width="0.4064" layer="1"/>
-<wire x1="56.65" y1="59.15" x2="57.5" y2="60" width="0.4064" layer="1"/>
+<wire x1="59.5" y1="60" x2="58" y2="60" width="0.4064" layer="1"/>
+<wire x1="57.15" y1="58.3" x2="57.15" y2="59.15" width="0.4064" layer="1"/>
+<wire x1="57.15" y1="59.15" x2="58" y2="60" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="LED1" pad="3"/>
