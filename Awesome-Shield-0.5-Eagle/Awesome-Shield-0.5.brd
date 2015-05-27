@@ -4081,10 +4081,8 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <element name="FID9" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="43" y="48"/>
 <element name="FID10" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="39" y="40.5"/>
 <element name="FID11" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="67.5" y="39.5"/>
-<element name="FID12" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="37.5" y="78.5"/>
 <element name="FID13" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="68" y="51"/>
 <element name="FID15" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="47.5" y="58.5"/>
-<element name="FID14" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="39.5" y="77.5"/>
 </elements>
 <signals>
 <signal name="A1">
@@ -4219,8 +4217,8 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <wire x1="58.85" y1="64" x2="59.5" y2="64" width="0.4064" layer="1"/>
 <wire x1="58.85" y1="64" x2="58.85" y2="62.072" width="0.4064" layer="1"/>
 <wire x1="58.85" y1="62.072" x2="58.922" y2="62" width="0.4064" layer="1"/>
+<wire x1="63.985" y1="68.63" x2="63.985" y2="68.485" width="0.4064" layer="1"/>
 <wire x1="63.985" y1="68.485" x2="59.5" y2="64" width="0.4064" layer="1"/>
-<wire x1="63.985" y1="68.485" x2="63.985" y2="68.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="J3" pad="3"/>
