@@ -183,7 +183,7 @@ Awesome Shield UG
 AwesomeShield.com</text>
 <text x="80" y="55" size="1.778" layer="22" font="vector" rot="MR0"></text>
 <text x="80" y="52.5" size="1.778" layer="22" font="vector" rot="MR0"></text>
-<text x="80" y="47" size="1.016" layer="22" font="vector" rot="MR0">Hardware Designs Released under the MIT License
+<text x="80" y="47" size="1.016" layer="22" font="vector" rot="MR0">Hardware Designs released under the MIT License
 opensource.org/licenses/MIT
 github.com/cwjpalmer/Awesome-Shield-PCB-0.5/
  $GIT COMMIT HASH$</text>
