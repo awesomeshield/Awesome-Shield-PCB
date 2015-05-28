@@ -5645,9 +5645,9 @@ Various fiducial points for machine vision alignment.</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="LED1" library="adafruit" deviceset="RGBLED" device="5050"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="330 Ohm"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="330 Ohm"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="330 Ohm"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="130 Ohm"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="130 Ohm"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="130 Ohm"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="10K"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="10K Ohm"/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="THERMISTOR1206"/>
@@ -5671,11 +5671,11 @@ Various fiducial points for machine vision alignment.</description>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-DPDT" device="AYZ0202" value="DPDT"/>
 <part name="RV1" library="SparkFun-Electromechanical" deviceset="POT" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="330 Ohm"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="330 Ohm"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="330 Ohm"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="330 Ohm"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="330 Ohm\"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="130 Ohm"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="130 Ohm"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="130 Ohm"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="130 Ohm"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="130 Ohm"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="10K Ohm"/>
 <part name="J3" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
