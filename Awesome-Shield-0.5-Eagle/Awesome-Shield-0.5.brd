@@ -155,12 +155,11 @@
 <wire x1="32.5" y1="69.8" x2="32.5" y2="25.2" width="0.001" layer="20"/>
 <wire x1="32.5" y1="25.2" x2="39.7" y2="18" width="0.001" layer="20"/>
 <wire x1="33.28" y1="72" x2="31.5" y2="70.22" width="2" layer="46"/>
-<wire x1="31.5" y1="70.22" x2="31.5" y2="24.78" width="2" layer="46"/>
 <wire x1="31.5" y1="24.78" x2="39.28" y2="17" width="2" layer="46"/>
 <wire x1="80.72" y1="17" x2="82.5" y2="18.78" width="2" layer="46"/>
 <wire x1="82.5" y1="70.22" x2="80.72" y2="72" width="2" layer="46"/>
-<wire x1="82.5" y1="18.78" x2="82.5" y2="43.2" width="2" layer="46"/>
-<wire x1="82.5" y1="70.22" x2="82.5" y2="45.7" width="2" layer="46"/>
+<wire x1="82.5" y1="18.78" x2="82.5" y2="43.25" width="2" layer="46"/>
+<wire x1="82.5" y1="70.22" x2="82.5" y2="45.75" width="2" layer="46"/>
 <wire x1="39.28" y1="17" x2="42" y2="17" width="2" layer="46"/>
 <wire x1="80.72" y1="17" x2="44.5" y2="17" width="2" layer="46"/>
 <wire x1="33.28" y1="72" x2="42" y2="72" width="2" layer="46"/>
@@ -2368,6 +2367,8 @@ github.com/cwjpalmer/Awesome-Shield-PCB-0.5/
 <rectangle x1="47.994153125" y1="44.5379375" x2="51.824471875" y2="44.55901875" layer="22"/>
 <rectangle x1="47.994153125" y1="44.55901875" x2="51.824471875" y2="44.5801" layer="22"/>
 <wire x1="80" y1="46" x2="34" y2="46" width="0.4064" layer="22"/>
+<wire x1="31.5" y1="70.22" x2="31.5" y2="45.75" width="2" layer="46"/>
+<wire x1="31.5" y1="43.25" x2="31.5" y2="24.78" width="2" layer="46"/>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
