@@ -189,7 +189,7 @@ github.com/cwjpalmer/Awesome-Shield-PCB-0.5/
 <wire x1="80" y1="63" x2="34" y2="63" width="0.4064" layer="22"/>
 <text x="80" y="53.5" size="1.778" layer="22" font="vector" rot="MR0"></text>
 <wire x1="60.5" y1="44" x2="60.5" y2="64.5" width="0.254" layer="21"/>
-<text x="62" y="45" size="1.27" layer="21" font="vector" rot="SR90">Resistors 330 Ohm</text>
+<text x="62" y="45" size="1.27" layer="21" font="vector" rot="SR90">Resistors 130 Ohm</text>
 <wire x1="60.5" y1="33.5" x2="60.5" y2="42.5" width="0.254" layer="21"/>
 <text x="62" y="36.5" size="1.27" layer="21" font="vector" rot="SR90">10K</text>
 <rectangle x1="47.97129375" y1="27.9431" x2="51.80415" y2="27.9644375" layer="22"/>
@@ -4042,9 +4042,9 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <attribute name="PROD_ID" value="TRANS-12141" x="64" y="27" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.2" y="26" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="R1" library="rcl" package="R1206" value="330 Ohm" x="57.5" y="62" smashed="yes" rot="R180"/>
-<element name="R2" library="rcl" package="R1206" value="330 Ohm" x="57.5" y="46" smashed="yes" rot="R180"/>
-<element name="R3" library="rcl" package="R1206" value="330 Ohm" x="57.5" y="53.55" smashed="yes" rot="R180"/>
+<element name="R1" library="rcl" package="R1206" value="130 Ohm" x="57.5" y="62" smashed="yes" rot="R180"/>
+<element name="R2" library="rcl" package="R1206" value="130 Ohm" x="57.5" y="46" smashed="yes" rot="R180"/>
+<element name="R3" library="rcl" package="R1206" value="130 Ohm" x="57.5" y="53.55" smashed="yes" rot="R180"/>
 <element name="R6" library="rcl" package="R1206" value="10K" x="57.5" y="34.5" smashed="yes" rot="R180"/>
 <element name="R7" library="rcl" package="R1206" value="10K Ohm" x="57.5" y="39" smashed="yes"/>
 <element name="SW1" library="adafruit" package="EVQ-Q2" value="SPST_TACT-EVQQ2" x="71" y="61" smashed="yes" rot="R180"/>
@@ -4057,11 +4057,11 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <element name="RV1" library="SparkFun-Electromechanical" package="ALPS_POT" value="" x="67.5" y="39.5" smashed="yes">
 <attribute name="PROD_ID" value="RES-09177" x="67.5" y="39.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="rcl" package="R1206" value="330 Ohm" x="57.5" y="50.5" smashed="yes"/>
-<element name="R8" library="rcl" package="R0603" value="330 Ohm" x="58" y="64" smashed="yes" rot="R180"/>
-<element name="R5" library="rcl" package="R0603" value="330 Ohm" x="58" y="48" smashed="yes" rot="R180"/>
-<element name="R9" library="rcl" package="R0603" value="330 Ohm" x="58" y="56.5" smashed="yes" rot="R180"/>
-<element name="R10" library="rcl" package="R0603" value="330 Ohm" x="58" y="58.3" smashed="yes"/>
+<element name="R4" library="rcl" package="R1206" value="130 Ohm" x="57.5" y="50.5" smashed="yes"/>
+<element name="R8" library="rcl" package="R0603" value="130 Ohm" x="58" y="64" smashed="yes" rot="R180"/>
+<element name="R5" library="rcl" package="R0603" value="130 Ohm" x="58" y="48" smashed="yes" rot="R180"/>
+<element name="R9" library="rcl" package="R0603" value="130 Ohm" x="58" y="56.5" smashed="yes" rot="R180"/>
+<element name="R10" library="rcl" package="R0603" value="130 Ohm" x="58" y="58.3" smashed="yes"/>
 <element name="R11" library="rcl" package="R0603" value="10K" x="58" y="36.5" smashed="yes"/>
 <element name="R12" library="rcl" package="R0603" value="10K Ohm" x="58" y="41.5" smashed="yes"/>
 <element name="J3" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="42" y="25" smashed="yes">
