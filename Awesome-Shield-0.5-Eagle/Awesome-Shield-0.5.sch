@@ -5339,16 +5339,16 @@ added 1mm to outer side of each pad to facilitate hand soldering
 
 
  | store
-http://www.digikey.de/product-detail/en/ALS-PT17-51C%2FL177%2FTR8/1080-1243-1-ND/2675977
+http://www.digikey.it/product-detail/en/KDT00030TR/KDT00030FSCT-ND/1764215?WT.z_cid=ref_octopart_dkc_buynow&amp;site=it
 
  | datasheet
-http://media.digikey.com/pdf/Data%20Sheets/Everlight%20PDFs/ALS-PT17-51C,L177,TR8.pdf</description>
-<smd name="1ANODE" x="0" y="1" dx="1.25" dy="1.4" layer="1"/>
-<smd name="2CATHODE" x="0" y="-1" dx="1.25" dy="1.4" layer="1"/>
+http://datasheet.octopart.com/KDT00030TR-Fairchild-Semiconductor-datasheet-13715376.pdf</description>
+<smd name="1ANODE" x="0" y="1.25" dx="0.8" dy="1.8" layer="1"/>
+<smd name="2CATHODE" x="0" y="-1.25" dx="0.8" dy="1.8" layer="1"/>
 <text x="-0.8" y="-1" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 <text x="1.2" y="-1" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="0.9" y1="-1" x2="0.9" y2="1" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="-1" x2="-0.9" y2="1" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.85" x2="0.8" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.85" x2="-0.8" y2="0.85" width="0.127" layer="21"/>
 <wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
