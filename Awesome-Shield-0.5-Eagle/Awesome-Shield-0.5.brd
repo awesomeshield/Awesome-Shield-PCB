@@ -166,7 +166,7 @@
 <wire x1="80.72" y1="72" x2="44.5" y2="72" width="2" layer="46"/>
 <text x="73.492" y="57.292" size="2.54" layer="21" font="vector" rot="R270">switch</text>
 <text x="77.96" y="65.304" size="2.54" layer="21" font="vector" rot="R270">button</text>
-<text x="77.01" y="43.998" size="2.54" layer="21" font="vector" rot="R270">dial</text>
+<text x="76.01" y="44.498" size="2.54" layer="21" font="vector" rot="R270">knob</text>
 <text x="80.396" y="27.064" size="2.54" layer="21" font="vector" rot="R90">temp</text>
 <text x="67.032" y="31.976" size="2.54" layer="21" font="vector" rot="R270">light</text>
 <text x="51.436" y="22.508" size="2.54" layer="21" font="vector" rot="R90">port1</text>
