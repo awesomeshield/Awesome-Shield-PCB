@@ -4047,7 +4047,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <element name="FID11" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="67.5" y="39.5"/>
 <element name="FID13" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="68" y="51"/>
 <element name="FID15" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="47.5" y="58.5"/>
-<element name="U1" library="SparkFun-Sensors" package="TEMT6000-SEN" value="LIGHTSENSORTEMT6000" x="65" y="26.85" rot="R90"/>
+<element name="U1" library="SparkFun-Sensors" package="TEMT6000-SEN" value="LIGHTSENSORTEMT6000" x="65" y="26.85" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="A1">
