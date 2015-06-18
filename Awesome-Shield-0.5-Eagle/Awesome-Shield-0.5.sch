@@ -5535,7 +5535,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2" y1="0.97" x2="-0.96" y2="0.97" width="0.2032" layer="21"/>
 <wire x1="2" y1="-0.76" x2="2" y2="-0.99" width="0.2032" layer="21"/>
 <wire x1="2" y1="-0.99" x2="-0.99" y2="-0.99" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-0.05" x2="-2" y2="0.05" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-0.005" x2="-2" y2="0.005" width="0.2032" layer="21"/>
 <smd name="EMITTER" x="-1.87" y="0.65" dx="1.1" dy="0.8" layer="1"/>
 <smd name="BASE" x="-1.87" y="-0.65" dx="1.1" dy="0.8" layer="1"/>
 <smd name="COLLECTOR" x="1.86" y="0.01" dx="1.1" dy="1" layer="1"/>

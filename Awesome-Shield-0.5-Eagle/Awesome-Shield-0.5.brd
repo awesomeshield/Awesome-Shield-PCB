@@ -3793,7 +3793,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2" y1="0.97" x2="-0.96" y2="0.97" width="0.2032" layer="21"/>
 <wire x1="2" y1="-0.76" x2="2" y2="-0.99" width="0.2032" layer="21"/>
 <wire x1="2" y1="-0.99" x2="-0.99" y2="-0.99" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-0.05" x2="-2" y2="0.05" width="0.2032" layer="21"/>
+<wire x1="-2" y1="-0.005" x2="-2" y2="0.005" width="0.2032" layer="21"/>
 <smd name="EMITTER" x="-1.87" y="0.65" dx="1.1" dy="0.8" layer="1"/>
 <smd name="BASE" x="-1.87" y="-0.65" dx="1.1" dy="0.8" layer="1"/>
 <smd name="COLLECTOR" x="1.86" y="0.01" dx="1.1" dy="1" layer="1"/>
@@ -4053,7 +4053,7 @@ einfach bestellen unter:: &lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font color=&quot;blue
 <element name="FID9" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="55.104" y="64.628"/>
 <element name="FID10" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="54.5" y="33"/>
 <element name="FID15" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="48.5" y="38"/>
-<element name="U1" library="SparkFun-Sensors" package="TEMT6000-SEN" value="LIGHTSENSORTEMT6000" x="38" y="37.65" rot="R90"/>
+<element name="U1" library="SparkFun-Sensors" package="TEMT6000-SEN" value="LIGHTSENSORTEMT6000" x="38" y="37.65" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="A1">
