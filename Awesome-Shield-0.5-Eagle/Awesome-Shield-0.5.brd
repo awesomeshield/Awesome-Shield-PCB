@@ -168,7 +168,7 @@
 <text x="77.96" y="65.304" size="2.54" layer="21" font="vector" rot="R270">button</text>
 <text x="76.01" y="44.498" size="2.54" layer="21" font="vector" rot="R270">knob</text>
 <text x="80.396" y="27.064" size="2.54" layer="21" font="vector" rot="R90">temp</text>
-<text x="67.032" y="31.976" size="2.54" layer="21" font="vector" rot="R270">light</text>
+<text x="67.032" y="32.126" size="2.54" layer="21" font="vector" rot="R270">light</text>
 <text x="51.436" y="22.508" size="2.54" layer="21" font="vector" rot="R90">port1</text>
 <text x="50.436" y="57" size="2.54" layer="21" font="vector" rot="SR90">port2</text>
 <text x="35.024" y="46.416" size="2.54" layer="21" font="vector" rot="SR45">buzz</text>
@@ -3779,11 +3779,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="TEMT6000-SEN">
-<wire x1="2" y1="0.76" x2="2" y2="0.97" width="0.2032" layer="21"/>
 <wire x1="2" y1="0.97" x2="-0.96" y2="0.97" width="0.2032" layer="21"/>
-<wire x1="2" y1="-0.76" x2="2" y2="-0.99" width="0.2032" layer="21"/>
 <wire x1="2" y1="-0.99" x2="-0.99" y2="-0.99" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-0.005" x2="-2" y2="0.005" width="0.2032" layer="21"/>
 <smd name="EMITTER" x="-1.87" y="0.65" dx="1.1" dy="0.8" layer="1"/>
 <smd name="BASE" x="-1.87" y="-0.65" dx="1.1" dy="0.8" layer="1"/>
 <smd name="COLLECTOR" x="1.86" y="0.01" dx="1.1" dy="1" layer="1"/>
