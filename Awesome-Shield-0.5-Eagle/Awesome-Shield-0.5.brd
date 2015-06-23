@@ -167,7 +167,7 @@
 <text x="33.492" y="64.792" size="2.54" layer="21" font="vector" rot="SR270">switch</text>
 <text x="37.46" y="54.804" size="2.54" layer="21" font="vector" rot="SR270">button</text>
 <text x="40.002" y="42.39" size="2.54" layer="21" font="vector" rot="SR270">knob</text>
-<text x="36.858" y="28.174" size="2.54" layer="21" font="vector" rot="SR315">temp</text>
+<text x="36.858" y="28.674" size="2.54" layer="21" font="vector" rot="SR315">temp</text>
 <text x="34.008" y="42.668" size="2.54" layer="21" font="vector" rot="SR270">light</text>
 <text x="64.064" y="32.492" size="2.54" layer="21" font="vector" rot="SR270">port1</text>
 <text x="64.064" y="44" size="2.54" layer="21" font="vector" rot="SR270">port2</text>
