@@ -434,12 +434,12 @@ http://www.tme.eu/en/Document/dc2a9e7a0231fddecc68f157d39a4595/LSH%20series.PDF<
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 </package>
 <package name="1X06-CLEAN">
-<pad name="1" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4" x="1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5" x="3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="1" x="-6.35" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<pad name="6" x="6.35" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
 <text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
@@ -5421,8 +5421,8 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="130 Ohm"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="130 Ohm"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
-<part name="J3" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
-<part name="J4" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
+<part name="J1" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
+<part name="J2" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
@@ -5478,8 +5478,8 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <instance part="R9" gate="G$1" x="274.32" y="127"/>
 <instance part="R10" gate="G$1" x="254" y="127"/>
 <instance part="R11" gate="G$1" x="193.04" y="190.5" rot="R90"/>
-<instance part="J3" gate="G$1" x="180.34" y="57.15"/>
-<instance part="J4" gate="G$1" x="337.82" y="64.77"/>
+<instance part="J1" gate="G$1" x="180.34" y="57.15"/>
+<instance part="J2" gate="G$1" x="337.82" y="64.77"/>
 <instance part="FID1" gate="G$1" x="15.24" y="15.24"/>
 <instance part="FID2" gate="G$1" x="20.32" y="15.24"/>
 <instance part="FID3" gate="G$1" x="25.4" y="15.24"/>
@@ -5571,14 +5571,14 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <wire x1="165.1" y1="50.8" x2="165.1" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="167.64" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="332.74" y1="60.96" x2="322.58" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="60.96" x2="320.04" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="320.04" y1="58.42" x2="320.04" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="4"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="64.77" x2="182.88" y2="67.31" width="0.1524" layer="91"/>
@@ -5591,8 +5591,8 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="180.34" y1="48.26" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
 <junction x="180.34" y="48.26"/>
-<pinref part="J3" gate="G$1" pin="SS1"/>
-<pinref part="J3" gate="G$1" pin="SS2"/>
+<pinref part="J1" gate="G$1" pin="SS1"/>
+<pinref part="J1" gate="G$1" pin="SS2"/>
 </segment>
 <segment>
 <wire x1="337.82" y1="72.39" x2="340.36" y2="74.93" width="0.1524" layer="91"/>
@@ -5605,8 +5605,8 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="337.82" y1="55.88" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
 <junction x="337.82" y="55.88"/>
-<pinref part="J4" gate="G$1" pin="SS1"/>
-<pinref part="J4" gate="G$1" pin="SS2"/>
+<pinref part="J2" gate="G$1" pin="SS1"/>
+<pinref part="J2" gate="G$1" pin="SS2"/>
 </segment>
 <segment>
 <pinref part="SW2" gate="G$1" pin="6"/>
@@ -5726,14 +5726,14 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <wire x1="165.1" y1="58.42" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="175.26" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="332.74" y1="63.5" x2="322.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="63.5" x2="320.04" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="320.04" y1="66.04" x2="320.04" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
@@ -5753,7 +5753,7 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <wire x1="327.66" y1="71.12" x2="327.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="78.74" x2="317.5" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="88.9" x2="309.88" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
@@ -5807,7 +5807,7 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <wire x1="213.36" y1="86.36" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="1"/>
 <label x="170.18" y="68.58" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <label x="208.28" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -5830,7 +5830,7 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <wire x1="215.9" y1="86.36" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
 <label x="162.56" y="68.58" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <label x="210.82" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -5899,7 +5899,7 @@ Simple light detection sensor. Output varies with light intensity input. Spark F
 <wire x1="325.12" y1="78.74" x2="322.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
 <label x="309.88" y="81.28" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
