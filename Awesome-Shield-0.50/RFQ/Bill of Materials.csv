@@ -1,0 +1,14 @@
+Manufacturer,Manufacturer Part Number,REFDES,QTY,Mount Type,Package,Specs
+Vishay,TEMT6000X01,U1,1,SMD,1206,
+Mallory Sonalert,AST100Q,SG1,1,SMD,"round, flat leads",
+Schurter,1301.9314,SW1,1,SMD,"square, gull wing",
+Wah Wang,WW-FCE50TC-Q1,LED1,1,SMD,5050,
+ALPS,RK09K1130A8G,RV1,1,THT,"vertical mount, pot",10k
+Vishay,CRCW060310K0FKEA,R11,1,SMD,0603,10k
+Yageo,RC1206JR-07130RL,"R1, R2, R3, R4",4,SMD,1206,130R
+4UConnector,20516,JP3,1,THT,m/f header,1x6
+4UConnector,20517,"JP1, JP2",2,THT,m/f header,1x8
+4UConnector,20518,JP4,1,THT,m/f header,1x10
+TME,MSS-2235S,SW2,1,SMD,"rect, gull wing","slide, DPDT"
+?,?,"J1, J2",2,SMD,4pin connector,
+TOTAL,,,15,,,
