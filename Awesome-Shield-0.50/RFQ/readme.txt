@@ -5,6 +5,8 @@ Solder mask color = RED
 coating = ENIG
 copper weight = 1oz
 layers = 2
+Must be RoHS compliant
+Solder residue must be cleaned from boards
 
 *** Notes for RFQ ***
 
