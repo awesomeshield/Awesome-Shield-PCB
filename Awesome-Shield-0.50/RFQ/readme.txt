@@ -19,6 +19,16 @@ We are interested in substituting analogous components from suppliers you use fr
 - silkscreen will become more complex and ornate
 - we have yet to design the QC release testing mechanism, or add QC contacts to the board
 
+* Anticipated schedule *
+January: Receive Quotes
+February-March: Marketing / run Kickstarter campaign
+April: adjust PCB design / BoM (DFM, consider adding one more component)
+May: prototype adjusted design, test, fix any issues
+June: source the production BoM
+July: production
+August: 1 month of "buffer" in case anything takes longer than expected
+September: package + ship to customers
+
 *** Information requested in Quote ***
 
 for production runs at 250, 500, 1k, 2.5k, 5k units
