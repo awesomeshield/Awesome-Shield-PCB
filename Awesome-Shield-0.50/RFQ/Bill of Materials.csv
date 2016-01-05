@@ -10,5 +10,5 @@ Yageo,RC1206JR-07130RL,"R1, R2, R3, R4",4,SMD,1206,130R
 4UConnector,20517,"JP1, JP2",2,THT,m/f header,1x8
 4UConnector,20518,JP4,1,THT,m/f header,1x10
 TME,MSS-2235S,SW2,1,SMD,"rect, gull wing","slide, DPDT"
-?,?,"J1, J2",2,SMD,4pin connector,
+"Shenzhen NS-Tech Co.,Ltd.",1125S-SMT-4P,"J1, J2",2,SMD,4pin connector,
 TOTAL,,,15,,,
