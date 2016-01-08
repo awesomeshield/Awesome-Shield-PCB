@@ -33,7 +33,7 @@ September: package + ship to customers
 
 ## Information requested in Quote
 
-for production runs at 250, 500, 1k, 2.5k, 5k units
+for production runs at 100, 250, 500, 1k, 2.5k, 5k units
 - costs (setup costs, unit costs)
 - time from order to finished product
 - amount of notice required for manufacturing run
