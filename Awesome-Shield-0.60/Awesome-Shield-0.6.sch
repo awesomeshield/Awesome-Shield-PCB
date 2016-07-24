@@ -7455,7 +7455,7 @@ Weight:	800mg&lt;br&gt;</description>
 <smd name="SIG" x="-3.9" y="3.4" dx="1.8" dy="1.8" layer="1"/>
 <smd name="NC2" x="-3.9" y="-3.4" dx="1.8" dy="1.8" layer="1"/>
 <smd name="NC1" x="3.9" y="-3.4" dx="1.8" dy="1.8" layer="1"/>
-<text x="-3.7" y="0" size="3.81" layer="21" font="vector" ratio="17">+</text>
+<text x="-2.43" y="0" size="3.81" layer="21" font="vector" ratio="17">+</text>
 <wire x1="-1" y1="-3" x2="1" y2="-3" width="0.127" layer="51" curve="-180"/>
 <wire x1="-1" y1="-3" x2="-1" y2="-4.2" width="0.127" layer="51"/>
 <wire x1="-1" y1="-4.2" x2="1" y2="-4.2" width="0.127" layer="51"/>
@@ -7468,10 +7468,10 @@ Weight:	800mg&lt;br&gt;</description>
 <wire x1="4" y1="-2" x2="4.2" y2="-2" width="0.127" layer="51"/>
 <wire x1="-4" y1="-4.2" x2="-4" y2="-2" width="0.127" layer="51"/>
 <wire x1="-4" y1="-2" x2="-4.2" y2="-2" width="0.127" layer="51"/>
-<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.5" layer="21"/>
-<wire x1="5" y1="2" x2="5" y2="-2" width="0.5" layer="21"/>
-<wire x1="2" y1="-5" x2="-2" y2="-5" width="0.5" layer="21"/>
-<wire x1="-2" y1="5" x2="2" y2="5" width="0.5" layer="21"/>
+<wire x1="-3.73" y1="2" x2="-3.73" y2="-2" width="0.32258125" layer="21"/>
+<wire x1="3.73" y1="2" x2="3.73" y2="-2" width="0.32258125" layer="21"/>
+<wire x1="2" y1="-3.73" x2="-2" y2="-3.73" width="0.32258125" layer="21"/>
+<wire x1="-2" y1="3.73" x2="2" y2="3.73" width="0.32258125" layer="21"/>
 <text x="-5" y="-7" size="1.27" layer="25" font="vector">&gt;Name</text>
 <text x="-5" y="-9" size="1.27" layer="27" font="vector">&gt;Value</text>
 </package>
