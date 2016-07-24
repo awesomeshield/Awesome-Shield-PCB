@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -14,8 +14,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -167,9 +167,9 @@
 <text x="46.638" y="23.573" size="2.54" layer="25" font="vector" rot="R90">switch</text>
 <text x="46.615" y="9.211" size="2.54" layer="25" font="vector" rot="R90">button</text>
 <text x="28.905" y="32.213" size="2.54" layer="25" font="vector" rot="R270">knob</text>
-<text x="24.372" y="14.761" size="2.54" layer="25" font="vector" rot="R270">light</text>
+<text x="26.912" y="16.031" size="2.54" layer="25" font="vector" rot="R270">light</text>
 <text x="46.64210625" y="38.42526875" size="2.54" layer="25" font="vector" rot="SR90">buzz</text>
-<text x="25.838" y="47.939" size="2.54" layer="25" font="vector" rot="R270">LED</text>
+<text x="29.013" y="46.034" size="2.54" layer="25" font="vector" rot="R270">LED</text>
 <text x="42.34" y="34.19" size="1.4224" layer="25" font="vector" rot="SR90">on</text>
 <text x="42.728" y="23.706" size="1.4224" layer="25" font="vector" rot="SR90">off</text>
 <text x="47.5" y="37" size="1.778" layer="22" font="vector" rot="MR0">Awesome Shield Prototype V0.50
@@ -2360,6 +2360,9 @@ ded830142afc045dc4b4e3c480d7b3786a3a687c</text>
 <wire x1="47.5" y1="28" x2="1.5" y2="28" width="0.4064" layer="22"/>
 <wire x1="-1" y1="52.22" x2="-1" y2="27.75" width="2" layer="46"/>
 <wire x1="-1" y1="25.25" x2="-1" y2="6.78" width="2" layer="46"/>
+<circle x="20.32" y="42.545" radius="5.462475" width="2.54" layer="21"/>
+<circle x="20.32" y="42.545" radius="3.419578125" width="2.54" layer="21"/>
+<circle x="20.32" y="42.545" radius="1.419903125" width="2.54" layer="21"/>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -3954,24 +3957,31 @@ design rules under a new name.</description>
 <element name="J1" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="PORT1" x="8.382" y="10.922" smashed="yes" rot="R180">
 <attribute name="VALUE" x="10.287" y="8.509" size="0.889" layer="27" font="vector" ratio="11" rot="R180"/>
 </element>
-<element name="J2" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="7.62" y="22.86" smashed="yes" rot="R90">
+<element name="J2" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="PORT2" x="7.62" y="22.86" smashed="yes" rot="R90">
 <attribute name="VALUE" x="5.207" y="20.955" size="0.889" layer="27" font="vector" ratio="11" rot="R90"/>
 </element>
-<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.604" y="2.54"/>
-<element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="43.055" y="9.27"/>
-<element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="2.54" y="48.26"/>
+<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="47.498" y="48.26"/>
+<element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="47.498" y="9.271"/>
+<element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="48.26"/>
 <element name="U1" library="SparkFun-Sensors" package="TEMT6000-SEN" value="LIGHTSENSORTEMT6000" x="22.225" y="10.795" smashed="yes" rot="R180"/>
-<element name="JP4" library="adafruit" package="1X10-BIG" value="PINHD-1X10" x="13.97" y="50.8" rot="R180"/>
+<element name="JP4" library="adafruit" package="1X10-BIG" value="PINHD-1X10" x="13.97" y="50.8" smashed="yes" rot="R180"/>
 <element name="JP1" library="adafruit" package="1X08-CLEANBIG" value="" x="38.1" y="50.8" rot="R180"/>
-<element name="JP2" library="adafruit" package="1X08-CLEANBIG" value="" x="20.32" y="2.54"/>
-<element name="JP3" library="adafruit" package="1X06-CLEAN" value="" x="40.64" y="2.54"/>
-<element name="J3" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="" x="7.62" y="40.64" rot="R90"/>
-<element name="D1" library="SparkFun-LED" package="WS2812B" value="" x="20.32" y="42.545" rot="R180">
-<attribute name="PROD_ID" value="DIO-12503" x="20.32" y="42.545" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="JP2" library="adafruit" package="1X08-CLEANBIG" value="" x="20.32" y="2.54" smashed="yes">
+<attribute name="VALUE" x="10.16" y="-0.635" size="1.27" layer="27"/>
 </element>
-<element name="C1" library="rcl" package="C0603" value="100nF" x="22.225" y="38.735"/>
-<element name="R1" library="rcl" package="R1206" value="TBD" x="31.115" y="46.99" rot="R180"/>
-<element name="U$1" library="buzzer-loudity-bzel-t68-0808" package="SMT-68" value="LOUDITY-BZEL-T680808" x="38.735" y="43.18" rot="R90"/>
+<element name="JP3" library="adafruit" package="1X06-CLEAN" value="" x="40.64" y="2.54" smashed="yes">
+<attribute name="VALUE" x="33.02" y="-0.635" size="1.27" layer="27"/>
+</element>
+<element name="J3" library="Seeed-OPL-Connector" package="HW4-SMD-2.0" value="PORT3" x="7.62" y="40.64" smashed="yes" rot="R90">
+<attribute name="VALUE" x="5.207" y="38.735" size="0.889" layer="27" font="vector" ratio="11" rot="R90"/>
+</element>
+<element name="D1" library="SparkFun-LED" package="WS2812B" value="" x="20.32" y="42.545" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="DIO-12503" x="20.32" y="42.545" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="16.066" y="44.145" size="0.6096" layer="27" rot="R180"/>
+</element>
+<element name="C1" library="rcl" package="C0603" value="100nF" x="22.225" y="38.735" smashed="yes"/>
+<element name="R1" library="rcl" package="R1206" value="TBD" x="31.115" y="46.99" smashed="yes" rot="R180"/>
+<element name="U$1" library="buzzer-loudity-bzel-t68-0808" package="SMT-68" value="LOUDITY-BZEL-T680808" x="38.735" y="43.18" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="A1">
@@ -4042,15 +4052,16 @@ design rules under a new name.</description>
 <via x="6.985" y="17.145" extent="1-16" drill="1" diameter="1.9304"/>
 <wire x1="2.582" y1="7.799" x2="2.582" y2="10.753" width="0.254" layer="1"/>
 <wire x1="2.582" y1="10.753" x2="2.54" y2="10.795" width="0.254" layer="1"/>
-<via x="2.54" y="10.795" extent="1-16" drill="1" diameter="1"/>
+<via x="2.54" y="10.795" extent="1-16" drill="1" diameter="1.9304"/>
 <wire x1="5.382" y1="10.922" x2="2.667" y2="10.922" width="0.254" layer="1"/>
 <wire x1="2.667" y1="10.922" x2="2.54" y2="10.795" width="0.254" layer="1"/>
 <wire x1="4.497" y1="34.84" x2="4.497" y2="33.603" width="0.254" layer="1"/>
 <wire x1="4.497" y1="33.603" x2="6.35" y2="31.75" width="0.254" layer="1"/>
-<via x="6.35" y="31.75" extent="1-16" drill="1" diameter="1"/>
+<via x="6.35" y="31.75" extent="1-16" drill="1" diameter="1.9304"/>
 <wire x1="6.35" y1="31.75" x2="4.497" y2="29.897" width="0.254" layer="1"/>
 <wire x1="4.497" y1="29.897" x2="4.497" y2="28.66" width="0.254" layer="1"/>
 <via x="41.91" y="5.08" extent="1-16" drill="1" diameter="1"/>
+<via x="39.37" y="5.08" extent="1-16" drill="1" diameter="1"/>
 </signal>
 <signal name="D2">
 <contactref element="SW1" pad="B"/>
@@ -4115,9 +4126,6 @@ design rules under a new name.</description>
 <via x="9.525" y="19.685" extent="1-16" drill="0.75" diameter="1.27"/>
 <wire x1="9.525" y1="19.685" x2="7.445" y2="19.685" width="0.254" layer="1"/>
 <wire x1="7.445" y1="19.685" x2="7.62" y2="19.86" width="0.254" layer="1"/>
-<wire x1="34.29" y1="2.54" x2="31.75" y2="2.54" width="0.254" layer="1"/>
-<wire x1="31.75" y1="2.54" x2="30.48" y2="3.81" width="0.254" layer="1"/>
-<wire x1="30.48" y1="3.81" x2="30.48" y2="8.89" width="0.254" layer="1"/>
 <via x="30.48" y="8.89" extent="1-16" drill="0.7" diameter="1.27"/>
 <wire x1="30.48" y1="8.89" x2="29.845" y2="8.255" width="0.254" layer="16"/>
 <wire x1="29.845" y1="8.255" x2="13.335" y2="8.255" width="0.254" layer="16"/>
@@ -4125,6 +4133,9 @@ design rules under a new name.</description>
 <wire x1="10.795" y1="10.795" x2="10.795" y2="13.97" width="0.254" layer="16"/>
 <wire x1="10.795" y1="13.97" x2="9.525" y2="15.24" width="0.254" layer="16"/>
 <wire x1="9.525" y1="15.24" x2="9.525" y2="19.685" width="0.254" layer="16"/>
+<wire x1="34.29" y1="2.54" x2="34.29" y2="3.81" width="0.254" layer="1"/>
+<wire x1="34.29" y1="3.81" x2="30.48" y2="7.62" width="0.254" layer="1"/>
+<wire x1="30.48" y1="7.62" x2="30.48" y2="8.89" width="0.254" layer="1"/>
 </signal>
 <signal name="A5">
 <contactref element="SJ2" pad="2"/>
@@ -4232,13 +4243,15 @@ design rules under a new name.</description>
 <signal name="A3">
 <contactref element="RV1" pad="P$2"/>
 <contactref element="JP3" pad="4"/>
-<wire x1="41.91" y1="2.54" x2="39.37" y2="5.08" width="0.254" layer="1"/>
-<wire x1="39.37" y1="5.08" x2="39.37" y2="26.035" width="0.254" layer="1"/>
+<wire x1="39.37" y1="6.985" x2="39.37" y2="26.035" width="0.254" layer="1"/>
 <wire x1="39.37" y1="26.035" x2="38.735" y2="26.67" width="0.254" layer="1"/>
 <wire x1="38.735" y1="26.67" x2="29.21" y2="26.67" width="0.254" layer="1"/>
 <wire x1="29.21" y1="26.67" x2="28.575" y2="27.305" width="0.254" layer="1"/>
 <wire x1="28.575" y1="27.305" x2="27.955" y2="27.305" width="0.254" layer="1"/>
 <wire x1="27.955" y1="27.305" x2="27.32" y2="27.94" width="0.254" layer="1"/>
+<wire x1="39.37" y1="6.985" x2="40.64" y2="5.715" width="0.254" layer="1"/>
+<wire x1="40.64" y1="5.715" x2="40.64" y2="3.81" width="0.254" layer="1"/>
+<wire x1="40.64" y1="3.81" x2="41.91" y2="2.54" width="0.254" layer="1"/>
 </signal>
 <signal name="IOREF">
 <contactref element="RV1" pad="P$3"/>
