@@ -7562,7 +7562,6 @@ Weight:	800mg&lt;br&gt;</description>
 <part name="J1" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
 <part name="J2" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="U1" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="TEMT6000"/>
@@ -7616,7 +7615,6 @@ full white is warm</text>
 <instance part="J1" gate="G$1" x="166.37" y="105.41"/>
 <instance part="J2" gate="G$1" x="325.12" y="105.41"/>
 <instance part="FID1" gate="G$1" x="15.24" y="15.24"/>
-<instance part="FID2" gate="G$1" x="20.32" y="15.24"/>
 <instance part="FID3" gate="G$1" x="25.4" y="15.24"/>
 <instance part="FID4" gate="G$1" x="30.48" y="15.24"/>
 <instance part="U1" gate="G$1" x="77.47" y="116.84"/>
@@ -7824,8 +7822,7 @@ full white is warm</text>
 <net name="D6" class="0">
 <segment>
 <label x="196.85" y="180.34" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="DIN"/>
-<wire x1="251.46" y1="180.34" x2="194.31" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="180.34" x2="194.31" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="7"/>
@@ -8032,8 +8029,11 @@ full white is warm</text>
 </net>
 <net name="D5" class="0">
 <segment>
-<wire x1="194.31" y1="182.88" x2="200.66" y2="182.88" width="0.1524" layer="91"/>
 <label x="196.85" y="182.88" size="1.778" layer="95"/>
+<pinref part="D1" gate="G$1" pin="DIN"/>
+<wire x1="251.46" y1="180.34" x2="228.6" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="194.31" y1="182.88" x2="226.06" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="182.88" x2="228.6" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="6"/>
