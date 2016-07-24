@@ -7559,7 +7559,7 @@ Weight:	800mg&lt;br&gt;</description>
 <part name="SW2" library="SparkFun-Electromechanical" deviceset="SWITCH-DPDT" device="AYZ0202" value="DPDT"/>
 <part name="RV1" library="SparkFun-Electromechanical" deviceset="POT" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
+<part name="J1" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device="" value="PORT1"/>
 <part name="J2" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device=""/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
