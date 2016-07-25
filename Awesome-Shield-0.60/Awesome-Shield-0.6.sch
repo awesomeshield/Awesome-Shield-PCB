@@ -8013,15 +8013,6 @@ full white is warm</text>
 <label x="196.85" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="320.04" y1="106.68" x2="317.5" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="106.68" x2="312.42" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="111.76" x2="312.42" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="119.38" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="121.92" x2="302.26" y2="121.92" width="0.1524" layer="91"/>
-<label x="302.26" y="121.92" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="56.54" y1="232.58" x2="46.38" y2="232.58" width="0.1524" layer="91"/>
 <label x="46.38" y="232.58" size="1.778" layer="95"/>
@@ -8046,6 +8037,19 @@ full white is warm</text>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="56.54" y1="235.12" x2="46.38" y2="235.12" width="0.1524" layer="91"/>
 <label x="46.38" y="235.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="201.93" y1="187.96" x2="194.31" y2="187.96" width="0.1524" layer="91"/>
+<label x="197.104" y="187.96" size="1.6764" layer="95"/>
+</segment>
+<segment>
+<wire x1="320.04" y1="106.68" x2="317.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="106.68" x2="312.42" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="111.76" x2="312.42" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="119.38" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="121.92" x2="302.26" y2="121.92" width="0.1524" layer="91"/>
+<label x="302.26" y="121.92" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="A3" class="0">
