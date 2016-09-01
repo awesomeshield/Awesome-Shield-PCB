@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0003333" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -8579,6 +8579,27 @@ Weight:	800mg&lt;br&gt;</description>
 </package>
 </packages>
 </library>
+<library name="we-rcl">
+<description>R, C, L, Pot, Jumper, Diodes, Crystals</description>
+<packages>
+<package name="C1206">
+<smd name="1" x="0" y="1.4" dx="1.8" dy="1.45" layer="1" roundness="20"/>
+<smd name="2" x="0" y="-1.4" dx="1.8" dy="1.45" layer="1" roundness="20"/>
+<wire x1="-0.85" y1="1.6" x2="-0.85" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="1" x2="-0.85" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-1" x2="-0.85" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.85" y1="1.6" x2="0.85" y2="1" width="0.127" layer="21"/>
+<wire x1="0.85" y1="1" x2="0.85" y2="-1" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-1" x2="0.85" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.85" y1="1.6" x2="-0.85" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-1.6" x2="-0.85" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="0.85" y1="1" x2="-0.85" y2="1" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-1" x2="-0.85" y2="-1" width="0.127" layer="21"/>
+<text x="-1.5875" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="1.5875" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8809,6 +8830,7 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" package="C0603" value="100nF" x="22.225" y="38.735" smashed="yes"/>
 <element name="R1" library="rcl" package="R1206" value="TBD" x="31.115" y="46.99" smashed="yes" rot="R180"/>
 <element name="U$1" library="buzzer-loudity-bzel-t68-0808" package="SMT-68" value="LOUDITY-BZEL-T680808" x="38.735" y="43.18" smashed="yes" rot="R90"/>
+<element name="R2" library="we-rcl" package="C1206" value="330R" x="12.065" y="45.72"/>
 </elements>
 <signals>
 <signal name="A1">
@@ -9040,14 +9062,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="D5">
 <contactref element="JP1" pad="6"/>
-<contactref element="D1" pad="4"/>
-<via x="19.685" y="41.275" extent="1-16" drill="0.7" diameter="1.27"/>
-<wire x1="19.685" y1="41.275" x2="19.355" y2="40.945" width="0.254" layer="1"/>
-<wire x1="19.355" y1="40.945" x2="17.743" y2="40.945" width="0.254" layer="1"/>
+<via x="19.685" y="47.625" extent="1-16" drill="0.7" diameter="1.27"/>
 <wire x1="34.29" y1="50.8" x2="31.75" y2="48.26" width="0.254" layer="16"/>
 <wire x1="31.75" y1="48.26" x2="20.32" y2="48.26" width="0.254" layer="16"/>
 <wire x1="20.32" y1="48.26" x2="19.685" y2="47.625" width="0.254" layer="16"/>
-<wire x1="19.685" y1="47.625" x2="19.685" y2="41.275" width="0.254" layer="16"/>
+<contactref element="R2" pad="1"/>
+<wire x1="19.685" y1="47.625" x2="19.05" y2="48.26" width="0.254" layer="1"/>
+<wire x1="19.05" y1="48.26" x2="13.335" y2="48.26" width="0.254" layer="1"/>
+<wire x1="13.335" y1="48.26" x2="12.195" y2="47.12" width="0.254" layer="1"/>
+<wire x1="12.195" y1="47.12" x2="12.065" y2="47.12" width="0.254" layer="1"/>
 </signal>
 <signal name="D3">
 <contactref element="JP1" pad="4"/>
@@ -9165,6 +9188,15 @@ design rules under a new name.</description>
 <wire x1="35.015" y1="39.28" x2="35.335" y2="39.28" width="0.254" layer="1"/>
 <wire x1="32.537" y1="46.99" x2="35.335" y2="44.192" width="0.254" layer="1"/>
 <wire x1="35.335" y1="44.192" x2="35.335" y2="39.28" width="0.254" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R2" pad="2"/>
+<contactref element="D1" pad="4"/>
+<wire x1="12.065" y1="44.32" x2="10.795" y2="43.05" width="0.254" layer="1"/>
+<wire x1="10.795" y1="43.05" x2="10.795" y2="42.545" width="0.254" layer="1"/>
+<wire x1="10.795" y1="42.545" x2="12.7" y2="40.64" width="0.254" layer="1"/>
+<wire x1="12.7" y1="40.64" x2="17.438" y2="40.64" width="0.254" layer="1"/>
+<wire x1="17.438" y1="40.64" x2="17.743" y2="40.945" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
