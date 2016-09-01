@@ -7206,51 +7206,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Aesthetics">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="FIDUCIAL-1X2">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="MICRO-FIDUCIAL">
-<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FIDUCIAL">
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FIDUCIAL" prefix="FID">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-Various fiducial points for machine vision alignment.</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1X2" package="FIDUCIAL-1X2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Sensors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
@@ -7861,6 +7816,38 @@ all kinds in 0402 and 0603</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="we-symbol">
+<description>Symbols, Logos...</description>
+<packages>
+<package name="PASSER_07MM">
+<circle x="0" y="0" radius="0.6" width="0.127" layer="41"/>
+<smd name="X" x="0" y="0" dx="0.7" dy="0.7" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.3" width="0.6" layer="29"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PASSER">
+<wire x1="-1.016" y1="0" x2="1.27" y2="0" width="0.127" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PASSER" prefix="X">
+<description>Fiducial Markers</description>
+<gates>
+<gate name="X" symbol="PASSER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-07" package="PASSER_07MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7893,9 +7880,6 @@ all kinds in 0402 and 0603</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device="" value="PORT1"/>
 <part name="J2" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-SMD(4+2P-2.0)" device="" value="PORT2"/>
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="U1" library="SparkFun-Sensors" deviceset="LIGHTSENSOR" device="TEMT6000"/>
 <part name="JP4" library="adafruit" deviceset="PINHD-1X10" device=""/>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X8" device="CLEANBIG"/>
@@ -7911,6 +7895,8 @@ all kinds in 0402 and 0603</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="TBD"/>
 <part name="U$1" library="buzzer-loudity-bzel-t68-0808" deviceset="LOUDITY-BZEL-T68" device="0808"/>
 <part name="R2" library="we-rcl" deviceset="RESISTOR" device="-1206" value="330R"/>
+<part name="X1" library="we-symbol" deviceset="PASSER" device="-07"/>
+<part name="X2" library="we-symbol" deviceset="PASSER" device="-07"/>
 </parts>
 <sheets>
 <sheet>
@@ -7947,9 +7933,6 @@ full white is warm</text>
 <instance part="GND8" gate="1" x="220.98" y="91.44"/>
 <instance part="J1" gate="G$1" x="166.37" y="105.41"/>
 <instance part="J2" gate="G$1" x="325.12" y="105.41"/>
-<instance part="FID1" gate="G$1" x="15.24" y="15.24"/>
-<instance part="FID3" gate="G$1" x="25.4" y="15.24"/>
-<instance part="FID4" gate="G$1" x="30.48" y="15.24"/>
 <instance part="U1" gate="G$1" x="77.47" y="116.84"/>
 <instance part="JP4" gate="G$1" x="59.08" y="202.1"/>
 <instance part="JP1" gate="G$1" x="59.08" y="235.12"/>
@@ -7965,6 +7948,8 @@ full white is warm</text>
 <instance part="R1" gate="G$1" x="220.98" y="135.89" rot="R90"/>
 <instance part="U$1" gate="G$1" x="218.44" y="111.76" rot="R270"/>
 <instance part="R2" gate="R" x="228.6" y="180.34"/>
+<instance part="X1" gate="X" x="10.16" y="10.16"/>
+<instance part="X2" gate="X" x="17.78" y="10.16"/>
 </instances>
 <busses>
 </busses>
