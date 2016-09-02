@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -7538,16 +7538,6 @@ Weight:	800mg&lt;br&gt;</description>
 <package name="C1206">
 <smd name="1" x="0" y="1.4" dx="1.8" dy="1.45" layer="1" roundness="20"/>
 <smd name="2" x="0" y="-1.4" dx="1.8" dy="1.45" layer="1" roundness="20"/>
-<wire x1="-0.85" y1="1.6" x2="-0.85" y2="1" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="1" x2="-0.85" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-1" x2="-0.85" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="0.85" y1="1.6" x2="0.85" y2="1" width="0.127" layer="21"/>
-<wire x1="0.85" y1="1" x2="0.85" y2="-1" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-1" x2="0.85" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="0.85" y1="1.6" x2="-0.85" y2="1.6" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-1.6" x2="-0.85" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="0.85" y1="1" x2="-0.85" y2="1" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-1" x2="-0.85" y2="-1" width="0.127" layer="21"/>
 <text x="-1.5875" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="1.5875" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 </package>
