@@ -1,0 +1,16 @@
+Manufacturer,Manufacturer Part Number (MPN),REFDES,Quantity,Mount Type,Package,Specs,Data Sheet,Notes
+"Shenzhen NS-Tech Co.,Ltd.",1125S-SMT-4P,"J1, J2, J3",3,SMT,4pin connector,"4pin connector, pitch 2.00mm",http://www.seeedstudio.com/depot/images/opl/datasheet/3470090P1.pdf,Manufacturer page: http://www.nstech.com.cn/en/products_1.asp?menuid=19&menuid2=38&id=14
+4UConnector,18164,"JP1, JP2",2,THT,socket header,"1x8, 2.54mm pitch",http://www.4uconnector.com/online/object/4udrawing/18164.pdf,
+4UConnector,18169,JP3,1,THT,socket header,"1x6, 2.54mm pitch",http://www.4uconnector.com/online/object/4udrawing/18169.pdf,
+4UConnector,18163,JP4,1,THT,socket header,"1x10, 2.54mm pitch",http://www.4uconnector.com/online/object/4udrawing/18163.pdf,
+Shenzhen Worldsemi Co.,ws2812b,LED1,1,SMT,5050,RGB,http://www.seeedstudio.com/document/pdf/WS2812B%20Datasheet.pdf,
+Panasonic Electronic Components,ERJ-8GEYJ103V,R6,1,SMT,1206,10K,http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/thick-film-chip-resistors/ERJ8GEYJ103V,
+AVX,0603YC104KAT2A,C1,1,SMT,0603,100nF,http://www.tme.eu/en/Document/667fe6e7748c0ed1675574c6bf64b751/AVX_X7R.pdf,
+Royal Ohm,1206S4F910JT5E,R1,1,SMT,1206,91R +/- 1%,http://www.tme.eu/en/Document/13f9d0766a2524c5bd28b9996aed3ce0/general.pdf,
+ALPS,RK09K1130A8G,RV1,1,THT,"vertical mount, pot",10K,http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K1130A8G.html,
+LOUDITY,LD-BZEL-T68-0808,SG1,1,SMT,8.5 x 8.5 x 3.6mm,,http://www.tme.eu/de/Document/4d922506d0f83f2ef88b8a517d03f53a/LD-BZEL-T68-0808_DTE.pdf,buzzer
+Schurter,1301.9314,SW1,1,SMT,"square, gull wing",TACT,http://www.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_LSH.pdf,
+TME,MSS-2235S,SW2,1,SMT,"rect, gull wing","slide, DPDT",http://www.tme.eu/en/details/mss-2235s/slide-switches/,
+Vishay,TEMT6000X01,U1,1,SMT,1206,,http://www.vishay.com/docs/81579/temt6000.pdf,
+,,R2,1,SMT,1206,330R,,
+TOTAL,,,16,,,,,
