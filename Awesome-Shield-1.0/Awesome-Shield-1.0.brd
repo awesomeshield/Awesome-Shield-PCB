@@ -8823,7 +8823,7 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" package="C0603" value="100nF" x="22.225" y="38.735" smashed="yes"/>
 <element name="R1" library="rcl" package="R1206" value="TBD" x="31.115" y="46.99" smashed="yes" rot="R180"/>
 <element name="U$1" library="buzzer-loudity-bzel-t68-0808" package="SMT-68" value="LOUDITY-BZEL-T680808" x="38.735" y="43.18" smashed="yes" rot="R90"/>
-<element name="R2" library="we-rcl" package="C1206" value="330R" x="12.065" y="45.72"/>
+<element name="R2" library="we-rcl" package="C1206" value="330R" x="12.7" y="45.72"/>
 <element name="X1" library="we-symbol" package="PASSER_07MM" value="PASSER-07" x="1.27" y="48.26"/>
 <element name="X2" library="we-symbol" package="PASSER_07MM" value="PASSER-07" x="47.625" y="5.08"/>
 </elements>
@@ -9062,7 +9062,7 @@ design rules under a new name.</description>
 <wire x1="31.75" y1="48.26" x2="15.875" y2="48.26" width="0.254" layer="16"/>
 <contactref element="R2" pad="1"/>
 <wire x1="13.335" y1="48.26" x2="12.195" y2="47.12" width="0.254" layer="1"/>
-<wire x1="12.195" y1="47.12" x2="12.065" y2="47.12" width="0.254" layer="1"/>
+<wire x1="12.195" y1="47.12" x2="12.7" y2="47.12" width="0.254" layer="1"/>
 <wire x1="13.335" y1="48.26" x2="14.605" y2="48.26" width="0.254" layer="1"/>
 <wire x1="14.605" y1="48.26" x2="15.24" y2="47.625" width="0.254" layer="1"/>
 <wire x1="15.875" y1="48.26" x2="15.24" y2="47.625" width="0.254" layer="16"/>
@@ -9076,14 +9076,17 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="38.1" x2="11.43" y2="39.37" width="0.254" layer="1"/>
 <wire x1="11.43" y1="39.37" x2="11.43" y2="40.64" width="0.254" layer="1"/>
 <wire x1="11.43" y1="40.64" x2="10.16" y2="41.91" width="0.254" layer="1"/>
-<wire x1="10.16" y1="41.91" x2="10.16" y2="48.26" width="0.254" layer="1"/>
-<wire x1="10.16" y1="48.26" x2="10.795" y2="48.895" width="0.254" layer="1"/>
-<wire x1="10.795" y1="48.895" x2="22.987" y2="48.895" width="0.254" layer="1"/>
-<wire x1="22.987" y1="48.895" x2="24.892" y2="46.99" width="0.254" layer="1"/>
+<wire x1="23.241" y1="48.641" x2="24.892" y2="46.99" width="0.254" layer="1"/>
 <wire x1="24.892" y1="46.99" x2="26.67" y2="46.99" width="0.254" layer="1"/>
 <via x="26.67" y="46.99" extent="1-16" drill="0.7" diameter="1.27"/>
 <wire x1="26.67" y1="46.99" x2="35.56" y2="46.99" width="0.254" layer="16"/>
 <wire x1="35.56" y1="46.99" x2="39.37" y2="50.8" width="0.254" layer="16"/>
+<wire x1="10.16" y1="41.91" x2="10.16" y2="44.45" width="0.254" layer="1"/>
+<wire x1="10.16" y1="44.45" x2="10.795" y2="45.085" width="0.254" layer="1"/>
+<wire x1="10.795" y1="45.085" x2="10.795" y2="48.26" width="0.254" layer="1"/>
+<wire x1="10.795" y1="48.26" x2="11.43" y2="48.895" width="0.254" layer="1"/>
+<wire x1="11.43" y1="48.895" x2="22.987" y2="48.895" width="0.254" layer="1"/>
+<wire x1="22.987" y1="48.895" x2="23.241" y2="48.641" width="0.254" layer="1"/>
 </signal>
 <signal name="A3">
 <contactref element="RV1" pad="P$2"/>
@@ -9187,11 +9190,12 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="R2" pad="2"/>
 <contactref element="D1" pad="4"/>
-<wire x1="12.065" y1="44.32" x2="10.795" y2="43.05" width="0.254" layer="1"/>
-<wire x1="10.795" y1="43.05" x2="10.795" y2="42.545" width="0.254" layer="1"/>
 <wire x1="10.795" y1="42.545" x2="12.7" y2="40.64" width="0.254" layer="1"/>
 <wire x1="12.7" y1="40.64" x2="17.438" y2="40.64" width="0.254" layer="1"/>
 <wire x1="17.438" y1="40.64" x2="17.743" y2="40.945" width="0.254" layer="1"/>
+<wire x1="12.7" y1="44.32" x2="11.3" y2="44.32" width="0.254" layer="1"/>
+<wire x1="11.3" y1="44.32" x2="10.795" y2="43.815" width="0.254" layer="1"/>
+<wire x1="10.795" y1="43.815" x2="10.795" y2="42.545" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
