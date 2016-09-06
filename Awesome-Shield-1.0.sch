@@ -7876,7 +7876,7 @@ all kinds in 0402 and 0603</description>
 <part name="D1" library="SparkFun-LED" deviceset="WS2812B" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="TBD"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="91R 1%"/>
 <part name="U$1" library="buzzer-loudity-bzel-t68-0808" deviceset="LOUDITY-BZEL-T68" device="0808"/>
 <part name="R2" library="we-rcl" deviceset="RESISTOR" device="-1206" value="330R"/>
 <part name="X1" library="we-symbol" deviceset="PASSER" device="-07"/>

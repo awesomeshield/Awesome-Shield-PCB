@@ -8808,7 +8808,7 @@ Weight:	800mg&lt;br&gt;</description>
 <attribute name="VALUE" x="16.701" y="43.51" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="C1" library="rcl" package="C0603" value="100nF" x="22.86" y="38.1" smashed="yes"/>
-<element name="R1" library="rcl" package="R1206" value="TBD" x="31.115" y="46.99" smashed="yes" rot="R180"/>
+<element name="R1" library="rcl" package="R1206" value="91R 1%" x="31.115" y="46.99" smashed="yes" rot="R180"/>
 <element name="U$1" library="buzzer-loudity-bzel-t68-0808" package="SMT-68" value="LOUDITY-BZEL-T680808" x="38.735" y="43.18" smashed="yes" rot="R90"/>
 <element name="R2" library="we-rcl" package="C1206" value="330R" x="14.605" y="45.72" smashed="yes">
 <attribute name="NAME" x="13.0175" y="45.72" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
