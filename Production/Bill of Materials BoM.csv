@@ -13,4 +13,5 @@ Schurter,1301.9314,SW1,1,SMT,"square, gull wing",TACT,http://www.schurter.com/bu
 TME,MSS-2235S,SW2,1,SMT,"rect, gull wing","slide, DPDT",http://www.tme.eu/en/details/mss-2235s/slide-switches/,
 Vishay,TEMT6000X01,U1,1,SMT,1206,,http://www.vishay.com/docs/81579/temt6000.pdf,
 ,,R2,1,SMT,1206,330R,,
+,,"R3, R4, R5",3,SMT,1603,1K,,
 TOTAL,,,16,,,,,
